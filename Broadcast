@@ -1,0 +1,152 @@
+*****************************************
+bro.adca.st
+******************************************
+<item>
+<title>[COLOR deepskyred]•[/COLOR][B][COLOR blue]   •   [/B][/COLOR]Elecdeca Online broadcast</title>
+
+<link>$doregex[bro.adca.st]</link>
+<regex>
+<name>bro.adca.st</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=18018&p=1&c=0&stretching=uniform&old=0'):
+ import requests, re, urllib
+ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
+ headers['Referer'] = 'http://elecdeka2017.blogspot.com.uy/2017/01/video-add-ond.html'
+ source = requests.get(url, headers=headers)
+ m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
+ m3u8 = m3u8.decode('base64')
+ tokenpage = re.findall('fass = "(.+?)"', source.text)[0]
+ headers['Referer'] = url
+ headers['X-Requested-With'] = 'XMLHttpRequest'
+ headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
+ headers['Accept-Language'] = 'en-US,en;q=0.5'
+ source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ return m3u8
+]]></expres>
+<page></page>
+</regex>
+
+<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
+<fanart>https://media.elobservador.com.uy/adjuntos/181/imagenes/001/439/0001439728.jpg</fanart>
+</item>
+
+rtmp://origin.bro.adca.st:1935/liverepeater
+59a1a8354d7e0?pwd=XwKXiQ58
+
+*****************************************
+247bay
+******************************************
+
+<item>
+<title>[COLOR deepskyred]•[/COLOR][B][COLOR blue]   •   [/B][/COLOR]Elecdeka Live 247bay</title>
+
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://www.publish247.xyz:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.247bay.tv/membedplayer/Elecdeka/1/500/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.247bay.tv</referer>
+			</regex>
+
+<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
+<fanart>https://media.elobservador.com.uy/adjuntos/181/imagenes/001/439/0001439728.jpg</fanart>
+</item>
+
+rtmp://publish247.xyz/stream
+Elecdeka?key=4d93dcf3&id=18462
+
+*****************************************
+ucaster
+******************************************
+
+<item>
+<title>[COLOR deepskyred]•[/COLOR][B][COLOR blue]   •   [/B][/COLOR]Elecdeca Online ucaster</title>
+  <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://www.pubucaster.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.ucaster.me/membedplayer/latramichamadre/1/500/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.ucaster.me</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.ucaster.me/membedplayer/latramichamadre/1/620/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.ucaster.me</referer>
+			</regex>
+
+<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
+<fanart>https://media.elobservador.com.uy/adjuntos/181/imagenes/001/439/0001439728.jpg</fanart>
+</item>
+
+Fms     rtmp://pubucaster.com/live
+Stream  latramichamadre?key=b2a4a0e4&id=93764
+
+*****************************************
+zenex
+******************************************
+
+<item>       
+<title>[COLOR deepskyred]•[/COLOR][B][COLOR blue]   •   [/B][/COLOR]Elecdeka Online zenex</title>
+
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.zenexpublisher.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.zenexplayer.com/membedplayer/Elecdeka/1/500/400</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.zenex.com</referer>
+</regex>
+
+<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
+<fanart>https://media.elobservador.com.uy/adjuntos/181/imagenes/001/439/0001439728.jpg</fanart>
+</item>
+
+rtmp://zenexpublisher.com/zenex 
+Elecdeka?key=941ff534&id=25286  
+
+*****************************************
+sharecast
+******************************************
+
+<item>       
+<title>[COLOR deepskyred]•[/COLOR][B][COLOR blue]   •   [/B][/COLOR]Elecdeka Online sharecast</title>
+
+<link>$doregex[m3u8]</link>
+<regex>
+<name>m3u8</name>
+<expres>file: "([^\"].*)"</expres>
+<page>http://sharecast.eu/embed.php?ch=laderotravatomocha-ttbm0</page>
+<referer>http://sharecast.eu/channel/laderotravatomocha-ttbm0</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</agent>
+</regex>
+
+<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
+<fanart>https://media.elobservador.com.uy/adjuntos/181/imagenes/001/439/0001439728.jpg</fanart>
+</item>
+
+rtmp://origin.sharecast.eu/share?token=lfifo5g&doPublish=876943
+laderotravatomocha-ttbm0
+
+******************
+
+
