@@ -1,0 +1,203 @@
+<item>
+<title>[B][COLOR red]• •   [/B][COLOR red]Transmision en vivo   [COLOR red][B][COLOR red]• •[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<externallink>http://pastebin.com</externallink>
+<thumbnail>http://4.bp.blogspot.com/--L1WkzExf-4/Wg17SUVb-XI/AAAAAAAACj8/XkJR-cH7rZssOjUy70bmMxmHGNoQJBkAgCK4BGAYYCw/s1600/yoruguito.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+**************************
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]VTV SD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fui.me/4y&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<thumbnail>http://4.bp.blogspot.com/-Pd2Aa9BMFo0/WdzJPNDFInI/AAAAAAAAB38/zBBYiNhXfvMD-sBvqTFYn1KWgn_vDPeowCK4BGAYYCw/s1600/vtv.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]VTV HD</title>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elec/6070/493.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<thumbnail>http://4.bp.blogspot.com/-Pd2Aa9BMFo0/WdzJPNDFInI/AAAAAAAAB38/zBBYiNhXfvMD-sBvqTFYn1KWgn_vDPeowCK4BGAYYCw/s1600/vtv.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]VTV +</title>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elec/6070/494.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<thumbnail>http://1.bp.blogspot.com/-_qW935egLeA/Wf4H5uQ2bdI/AAAAAAAACMs/Ta8uUqs0RD0GAKE4jNCSxd1nxl-JRCVtwCK4BGAYYCw/s1600/vtv%252B.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+**************************
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Futbol livesports</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=vtv&width=650&height=400</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/--L1WkzExf-4/Wg17SUVb-XI/AAAAAAAACj8/XkJR-cH7rZssOjUy70bmMxmHGNoQJBkAgCK4BGAYYCw/s1600/yoruguito.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+expres>source: '(.*?)'</expres>
+
+----------------------------------------------------------
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]FutAndres [COLOR blue]~[COLOR deepskyblue] Goltv [COLOR blue]~[COLOR deepskyblue] VTV[/COLOR]</title>
+<link>$doregex[get-id]</link>
+<regex>
+<name>get-id</name>
+<expres>file:"(.*?)"</expres>
+<page>http://widestream.io/embed-2261</page>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/--L1WkzExf-4/Wg17SUVb-XI/AAAAAAAACj8/XkJR-cH7rZssOjUy70bmMxmHGNoQJBkAgCK4BGAYYCw/s1600/yoruguito.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+**************************
+
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Futbol livesports 2</title>
+<link>plugin://plugin.video.f4mTester/?url=http://fui.me/4s&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Premium</link>
+<thumbnail>http://4.bp.blogspot.com/--L1WkzExf-4/Wg17SUVb-XI/AAAAAAAACj8/XkJR-cH7rZssOjUy70bmMxmHGNoQJBkAgCK4BGAYYCw/s1600/yoruguito.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+**************************
+
+<item>       
+
+<title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR red](off)[/COLOR]</title>
+title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR lime](on)[/COLOR]</title>
+
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.zenexpublisher.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.zenexplayer.com/membedplayer/Elecdeka/1/500/400</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.zenex.com</referer>
+</regex>
+
+<thumbnail>http://4.bp.blogspot.com/--L1WkzExf-4/Wg17SUVb-XI/AAAAAAAACj8/XkJR-cH7rZssOjUy70bmMxmHGNoQJBkAgCK4BGAYYCw/s1600/yoruguito.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+******************
+******************
+
+
+<item>
+<title>[B][COLOR red]• •   [/B][COLOR red]Canales Vera Tv   [COLOR red][B][COLOR red]• •[/B][/COLOR]</title>
+
+<link>http://ignorame</link>
+
+<thumbnail>http://4.bp.blogspot.com/-V5wIaEfO6M0/WaA-_FdpGGI/AAAAAAAABcM/fHL7hRTaekw8HOYTQPnZBC1IQqsdWlCcgCK4BGAYYCw/s1600/tranestros.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+************************************
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR][COLOR yellow]Vera HD[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6001</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-K9V0_Jr6l38/WdzJO8ASM0I/AAAAAAAAB30/2rgpLCcpRPwgHY6Gr-3ew79Q1QeZTmowgCK4BGAYYCw/s1600/vera%2Btv%2B%252B.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+
+********************
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR][COLOR yellow]Vera + basico[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/17765</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-vaTrjieMra8/WdzaElmyUQI/AAAAAAAAB-8/13Q7XUn1JEwX6h5e2HfQjqKTKOFYQ09GACK4BGAYYCw/s1600/VERATV.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+*********************
+
+****************
+****************
+****************
+****************
+
+
+*********************
+Cambios 1
+*********************
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Final LFB-Defensor vs Malvín [COLOR blue]~[/COLOR] [COLOR deepskyblue]15/10/2017 19:00 HD[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/evento/32801</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/32801/240/default.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+*********************
+Cambios 2
+*********************
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Larre Borges vs. Biguá [COLOR blue]~[/COLOR] [COLOR deepskyblue]09/10/2017 20:00 HD[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/evento/32689</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/32689/240/default.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
