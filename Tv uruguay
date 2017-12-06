@@ -80,14 +80,14 @@ item>
 <fanart>http://brecha.com.uy/wp-content/uploads/2017/04/02-Canal-10-Foto-FERNANDO-PENA.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Canal 10</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fui.me/4x&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/xxx/xxx/414.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
 <thumbnail>http://3.bp.blogspot.com/-q9q9EjHUo3M/WdzJURAX4bI/AAAAAAAAB5Q/_EWgQ3a1-3oPoDzkGopP-CL8kJPK1AU-gCK4BGAYYCw/s1600/canal%2B10.jpg</thumbnail>
 <fanart>http://brecha.com.uy/wp-content/uploads/2017/04/02-Canal-10-Foto-FERNANDO-PENA.jpg</fanart>
 </item>
-http://fui.me/4x
-http://158.69.52.43:8000/live/elec/6070/414.ts
+
+
 ---------------------------
 
 <item>
@@ -126,23 +126,20 @@ expres>source: '(.*?)'</expres>
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]VTV</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fui.me/4y&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/xxx/xxx/1450.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
 <thumbnail>http://4.bp.blogspot.com/-Pd2Aa9BMFo0/WdzJPNDFInI/AAAAAAAAB38/zBBYiNhXfvMD-sBvqTFYn1KWgn_vDPeowCK4BGAYYCw/s1600/vtv.jpg</thumbnail>
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
 </item>
-http://158.69.52.43:8000/live/elec/6070/1450.ts
-http://fui.me/4y
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]VTV +</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fui.me/4w&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/xxx/xxx/494.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
 <thumbnail>http://1.bp.blogspot.com/-_qW935egLeA/Wf4H5uQ2bdI/AAAAAAAACMs/Ta8uUqs0RD0GAKE4jNCSxd1nxl-JRCVtwCK4BGAYYCw/s1600/vtv%252B.jpg</thumbnail>
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
 </item>
-http://158.69.52.43:8000/live/elec/6070/494.ts
-http://fui.me/4w
+
 ----------------------
 
 <item>
