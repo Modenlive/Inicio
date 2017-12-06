@@ -15,6 +15,27 @@
 </item>
 
 <item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Gol TV</title>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elecuy/3844/1066.m3u8&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<thumbnail>http://tv.lawalocos.com/imagenes-canales/goltv.png</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Gol TV eng</title>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elecuy/3844/2848.m3u8&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<thumbnail>http://tv.lawalocos.com/imagenes-canales/goltv.png</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]VTV +</title>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elecuy/3844/494.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<thumbnail>http://1.bp.blogspot.com/-_qW935egLeA/Wf4H5uQ2bdI/AAAAAAAACMs/Ta8uUqs0RD0GAKE4jNCSxd1nxl-JRCVtwCK4BGAYYCw/s1600/vtv%252B.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]VTV +</title>
 <link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elecuy/3844/494.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
 <thumbnail>http://1.bp.blogspot.com/-_qW935egLeA/Wf4H5uQ2bdI/AAAAAAAACMs/Ta8uUqs0RD0GAKE4jNCSxd1nxl-JRCVtwCK4BGAYYCw/s1600/vtv%252B.jpg</thumbnail>
