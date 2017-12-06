@@ -16,7 +16,7 @@
 
 <item>
 <title>[B][COLOR blue]•   [/B][/COLOR]GolTv SD</title>
-<link>plugin://plugin.video.f4mTester/?url=http://1066.69.52.43:8000/live/elecuy/3844/1450.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elecuy/3844/1066.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
 <thumbnail>http://tv.lawalocos.com/imagenes-canales/goltv.png</thumbnail>
 <fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
 </item>
