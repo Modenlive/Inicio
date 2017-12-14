@@ -44,7 +44,7 @@ http://prepublish.f.qaotic.net/epa/ngrp:americatvlive-100056_all/Playlist.m3u8?s
 
 <item>
 <title>[B][COLOR blue]•   [/B][COLOR]C5N HD[/COLOR]</title> 
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=wjEPnCH6xCU</link> 
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=3FqxTjT63Vs</link> 
 <thumbnail>http://1.bp.blogspot.com/-viYjA4yvaUU/WdaNiQSrGGI/AAAAAAAABkQ/bMHv3i6MD3Q1HZnYpbww0ktc-vCJWGFWQCK4BGAYYCw/s1600/c5n.jpg</thumbnail>
 <fanart>http://4.bp.blogspot.com/-1y56mYs6vec/WdaNgDyTWwI/AAAAAAAABjA/oToyKf6160sW1cjnEj8HK-hVqLD-NFedgCK4BGAYYCw/s1600/c5n1.jpg</fanart>
 </item>
@@ -131,7 +131,7 @@ http://live-edge01.telecentro.net.ar/live/smil:c26.smil/chunklist_w252194214_b18
 </item>
 http://200.42.92.149/live/mgzntv/mgzntv/playlist.m3u8|User-Agent=ArtearPlayer/3.2.42 (Linux;Android 4.4.2)
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Ciudad Magazine HD</title>
 <link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0012</link>
 <thumbnail>http://1.bp.blogspot.com/-cZcn_5Fz-Nw/WdaNiTlbleI/AAAAAAAABkg/XvBWTxapTOQQO943BlgRTenMuTpGMOT3QCK4BGAYYCw/s1600/Ciudad%2BMagazing.jpg</thumbnail>
@@ -145,7 +145,7 @@ http://200.42.92.149/live/mgzntv/mgzntv/playlist.m3u8|User-Agent=ArtearPlayer/3.
 <fanart>http://television.com.ar/wp-content/uploads/2017/06/kzocanal.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Chacra Tv</title>
 <link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0012</link>
 <thumbnail>http://1.bp.blogspot.com/-7FiknQl4r-A/Wg2MagJzdCI/AAAAAAAACkc/V2llc99qEpgBeJ43s-HhRhhg0dEMavHvwCK4BGAYYCw/s1600/chacratv.jpg</thumbnail>
