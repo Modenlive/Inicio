@@ -8,7 +8,7 @@
 **************************
 
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FutWide 1 [COLOR blue]~[COLOR deepskyblue] La Liga[/COLOR]</title>
 <link>$doregex[get-id]</link>
 <regex>
@@ -20,7 +20,7 @@
 <fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]DailyWide [COLOR blue]~[COLOR deepskyblue] La Liga[/COLOR]</title>
 <link>$doregex[get-id]</link>
 <regex>
@@ -41,7 +41,7 @@
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=53&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=53&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://in.xrivonet.info/003.html'
@@ -53,8 +53,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -65,36 +65,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 </item>
 
 <item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Max 01 739 [COLOR blue]~[COLOR deepskyblue] DirecTv [COLOR blue]~[COLOR deepskyblue] Espn [COLOR blue]~ [COLOR red]bro[COLOR].[COLOR white]adca[COLOR].[COLOR blue]st[/COLOR]</title>
-
-<link>$doregex[bro.adca.st]</link>
-<regex>
-<name>bro.adca.st</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=739&p=1&c=0&stretching=uniform&old=0'):
- import requests, re, urllib
- headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
- headers['Referer'] = 'http://maxdeportv.net/indexa.php?canal=1'
- source = requests.get(url, headers=headers)
- m3u8 = re.findall('trap = "(.+?)"', source.text)[0]
- m3u8 = m3u8.decode('base64')
- tokenpage = re.findall('fass = "(.+?)"', source.text)[0]
- headers['Referer'] = url
- headers['X-Requested-With'] = 'XMLHttpRequest'
- headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
- headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
- return m3u8
-]]></expres>
-<page></page>
-</regex>
-
-<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
-<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
-</item>
-
-item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Max 01 739 [COLOR blue]~[COLOR deepskyblue] DirecTv [COLOR blue]~[COLOR deepskyblue] Espn [COLOR blue]~ [COLOR red]bro[COLOR].[COLOR white]adca[COLOR].[COLOR blue]st[/COLOR]</title>
 
 <link>$doregex[bro.adca.st]</link>
@@ -123,6 +93,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 <thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
 <fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
 </item>
+
+
 ---------------------------------
 <item>
 <title>[B][COLOR blue]•   [/B][/COLOR]MAX 10 [COLOR blue]~[COLOR deepskyblue] Univision [COLOR blue]~[COLOR deepskyblue] DirecTV [COLOR blue]~[COLOR deepskyblue] LIGAMX[/COLOR]</title>
@@ -183,7 +155,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=248&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=248&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://www.virocu.com/p/futbol-online-en-directo.html'
@@ -195,8 +167,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -216,7 +188,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=15129&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=15129&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://vipracing.info/channel/canal-2'
@@ -228,8 +200,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -327,7 +299,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=715&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=715&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://maxdeportv.net/?canal=8a7'
@@ -339,8 +311,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -358,7 +330,7 @@ item>
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=18528&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=18528&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://333sport.info/333/03.html?_ki'
@@ -370,8 +342,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -578,7 +550,7 @@ item>
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=13525&p=1&c=document&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13525&p=1&c=document&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://deportesmax.info/?canal=54a1'
@@ -590,8 +562,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -629,7 +601,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=13137&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13137&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://vipracing.info/channel/canal-2'
@@ -641,8 +613,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -678,7 +650,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=15129&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=15129&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://vipracing.info/channel/canal-2'
@@ -690,8 +662,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -708,7 +680,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=739&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=739&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://vipracing.info/channel/canal-2'
@@ -720,8 +692,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -837,7 +809,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=13137&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=13137&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://vipracing.info/channel/canal-2'
@@ -849,8 +821,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -867,7 +839,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=15129&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=15129&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://vipracing.info/channel/canal-2'
@@ -879,8 +851,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
@@ -1173,7 +1145,7 @@ link>$doregex[bro.adca.st]</link>
 <regex>
 <name>bro.adca.st</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?id=34&p=1&c=0&stretching=uniform&old=0'):
+def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=34&p=1&c=0&stretching=uniform&old=0'):
  import requests, re, urllib
  headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0'}
  headers['Referer'] = 'http://www.tarjetarojatv.net/rojadirecta/canal-1-tarjetarojatv.html'
@@ -1185,8 +1157,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://futbolbase.us/stream.php?i
  headers['X-Requested-With'] = 'XMLHttpRequest'
  headers['Accept'] = 'application/json, text/javascript, */*; q=0.01'
  headers['Accept-Language'] = 'en-US,en;q=0.5'
- source = requests.get('http://futbolbase.us/%s'%tokenpage, headers=headers)
- m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://futbolbase.us/&Origin=http://futbolbase.us'%headers['User-Agent']
+ source = requests.get('http://bro.adca.st/%s'%tokenpage, headers=headers)
+ m3u8 = m3u8 + re.findall(':"(.+?)"', source.text)[0] + '|User-Agent=%s&Referer=http://bro.adca.st/&Origin=http://bro.adca.st'%headers['User-Agent']
  return m3u8
 ]]></expres>
 <page></page>
