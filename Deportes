@@ -47,7 +47,7 @@ item>
 </item> 
 
 -------------
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]GolTv/PSN</title>
 
 <link>$doregex[bro.adca.st]</link>
@@ -89,69 +89,45 @@ item>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/01/tv-foxsports-uru-16-hd.png</thumbnail>
 </item>
  
-item>
-<title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 1 Arg</title>
-<link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
-<regex>
-<name>play</name>
-<expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
-<page>https://www.cxntv.com/canales/tv-foxar/ </page>
-</regex>
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 1</title>
+<link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS_HD)/Stream(01)/index.m3u8 </link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2014/05/tv-foxsports-arg-16-hd.png</thumbnail>
 </item>
  
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 2</title>
-<link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
-<regex>
-<name>play</name>
-<expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
-<page>https://www.cxntv.com/canales/tv-fox2/</page>
-</regex>
+<link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS2_HD)/Stream(01)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/02/tv-foxsports-2-16-hd.png</thumbnail>
 </item>
  
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 3</title>
-<link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
-<regex>
-<name>play</name>
-<expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
-<page>https://www.cxntv.com/canales/fox-sports-3/</page>
-</regex>
+<link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS3_HD)/Stream(01)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/07/tv-foxsports-3-16.png</thumbnail>
 </item>
  
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]ESPN 1</title>
-<link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
-<regex>
-<name>play</name>
-<expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
-<page>https://www.cxntv.com/canales/tv-espn1</page>
-</regex>
+<link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN_HD)/Stream(05)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn.png</thumbnail>
 </item>
  
-item>
-<title>[B][COLOR blue]•   [/B][/COLOR]ESPN 2</title>
-<link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
-<regex>
-<name>play</name>
-<expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
-<page>https://www.cxntv.com/canales/tv-espn2/</page>
-</regex>
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]ESPN 1 (op 2)</title>
+<link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN_HD)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn2.png</thumbnail>
 </item>
- 
-item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]ESPN 2</title>
+<link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN2_HD)/index.m3u8</link>
+<thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn2.png</thumbnail>
+</item>
+
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]ESPN 3</title>
-<link>rtmp://slc2.cxn.tv:1935/live/ playpath=$doregex[play] swfUrl=https://ssl.p.jwpcdn.com/6/2/jwplayer.flash.swf live=1 pageUrl=https://www.cxntv.com/canales/tv-foxuy/</link>
-<regex>
-<name>play</name>
-<expres>file":"rtmp:.*?live\\\/(.*?)"</expres>
-<page>https://www.cxntv.com/canales/espn3/</page>
-</regex>
+<link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN3)/Stream(06)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn3.png</thumbnail>
 </item>
 <item>
