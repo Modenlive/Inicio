@@ -152,8 +152,8 @@ title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR lime](on)[/COLOR]<
 *********************
 Cambios 1
 *********************
-item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Final LFB-Defensor vs Malvín [COLOR blue]~[/COLOR] [COLOR deepskyblue]15/10/2017 19:00 HD[/COLOR]</title>
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Aguada vs Larre Borges [COLOR blue]~[/COLOR] [COLOR deepskyblue]15/12/2017 20:00 HD[/COLOR]</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
@@ -164,11 +164,11 @@ item>
 <regex>
 <name>get-ifr</name>
 <expres>'src', '(.*extras.*?)'</expres>
-<page>http://tv.vera.com.uy/evento/32801</page>
+<page>http://tv.vera.com.uy/evento/33659</page>
 <referer>http://tv.vera.com.uy</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/32801/240/default.jpg</thumbnail>
+<thumbnail>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/32689/240/default.jpg</thumbnail>
 <fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
 </item>
 
