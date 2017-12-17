@@ -209,8 +209,8 @@ expres>videoUrl = '(.*?)'</expres>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
+expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=pluscero&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
@@ -220,16 +220,16 @@ expres>source: '(.*?)'</expres>
 
 <item>
 <title>[B][COLOR blue]•   [/B][COLOR]AMC[/COLOR] </title>
-link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
-regex>
-name>GetPageUrl</name>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
 expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
-page>http://livesports.pw/embedn.php?file=amcesptele&amp;width=650&amp;height=397</page>
-cookieJar></cookieJar>
-/regex>
-<sportsdevil>http://vergol.com/live/amc.php</sportsdevil>
-<referer>http://www.vercanalestv.com/ver-amc-online-gratis-en-vivo-por-internet/</referer>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=amcesptele&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+sportsdevil>http://vergol.com/live/amc.php</sportsdevil>
+referer>http://www.vercanalestv.com/ver-amc-online-gratis-en-vivo-por-internet/</referer>
 <thumbnail>http://1.bp.blogspot.com/-oa27pB9pGek/WdwBBNT-3jI/AAAAAAAABzs/LEWgFfdg3HMowCH9vndZlWdRiogR5wA2QCK4BGAYYCw/s1600/amc.jpg</thumbnail>
 <fanart>http://images.amcnetworks.com/amc.com/wp-content/uploads/2016/09/AMC_Black_Hero_Logo-1200x707.jpg</fanart>
 </item>
