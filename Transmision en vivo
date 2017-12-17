@@ -16,13 +16,71 @@
 
 <item>
 <title>[B][COLOR blue]•   [/B][/COLOR]GolTv SD</title>
-<link>plugin://plugin.video.f4mTester/?url=http://fui.me/55&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/elecuy/3844/2848.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+link>plugin://plugin.video.f4mTester/?url=http://fui.me/55&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
 <thumbnail>http://tv.lawalocos.com/imagenes-canales/goltv.png</thumbnail>
 <fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
 </item>
 
 **************************
 
+*****************************************
+zenex
+*****************************************
+
+<item>       
+<title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR lime] zenex[COLOR red]  OFF[/COLOR]</title>
+title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR lime] zenex  ON[/COLOR]</title>
+
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.zenexpublisher.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.zenexplayer.com/membedplayer/Elecdeka/1/500/400</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.zenex.com</referer>
+</regex>
+
+<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
+<fanart>https://media.elobservador.com.uy/adjuntos/181/imagenes/001/439/0001439728.jpg</fanart>
+</item>
+
+rtmp://zenexpublisher.com/zenex 
+Elecdeka?key=941ff534&id=25286  
+
+*****************************************
+sharecast
+******************************************
+
+<item>       
+<title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR yellow] sharecast[COLOR red]  OFF[/COLOR]</title>
+title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR yellow] sharecast[COLOR lime]  ON[/COLOR]</title>
+
+<link>$doregex[m3u8]</link>
+<regex>
+<name>m3u8</name>
+<expres>file: "([^\"].*)"</expres>
+<page>http://sharecast.eu/embed.php?ch=laderotravatomocha-ttbm0</page>
+<referer>http://sharecast.eu/channel/laderotravatomocha-ttbm0</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36</agent>
+</regex>
+
+<thumbnail>http://4.bp.blogspot.com/-O5uAEViNSjQ/WbFlprYePGI/AAAAAAAABc8/pv95Jp8a8qkmEFRufEGF0bz9DrbH7XrigCK4BGAYYCw/s1600/icon2.png</thumbnail>
+<fanart>https://media.elobservador.com.uy/adjuntos/181/imagenes/001/439/0001439728.jpg</fanart>
+</item>
+
+rtmp://origin.sharecast.eu/share?token=lfifo5g&doPublish=876943
+laderotravatomocha-ttbm0
+
+
+
+******************
+******************
 <item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Futbol livesports</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -40,7 +98,19 @@ expres>source: '(.*?)'</expres>
 ----------------------------------------------------------
 
 <item>
-<title>[B][COLOR blue]•   [/B][/COLOR]FutAndres [COLOR blue]~[COLOR deepskyblue] Goltv [COLOR blue]~[COLOR deepskyblue] VTV[/COLOR]</title>
+<title>[B][COLOR blue]•   [/B][/COLOR]FutAndres 1</title>
+<link>$doregex[get-id]</link>
+<regex>
+<name>get-id</name>
+<expres>file:"(.*?)"</expres>
+<page>http://widestream.io/embed-7231</page>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/--L1WkzExf-4/Wg17SUVb-XI/AAAAAAAACj8/XkJR-cH7rZssOjUy70bmMxmHGNoQJBkAgCK4BGAYYCw/s1600/yoruguito.jpg</thumbnail>
+<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]FutAndres 2</title>
 <link>$doregex[get-id]</link>
 <regex>
 <name>get-id</name>
@@ -60,34 +130,12 @@ item>
 <fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
 </item>
 
+***************************
+
+
+
 **************************
-
-<item>       
-
-<title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR red](off)[/COLOR]</title>
-title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR lime](on)[/COLOR]</title>
-
-<link>http://$doregex[ip]$doregex[m3u8]</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)</expres>
-<page>http://www.zenexpublisher.com:1935/loadbalancer</page>
-</regex>
-<regex>
-<name>m3u8</name>
-<expres>ea \+ "(.*?)"</expres>
-<page>http://www.zenexplayer.com/membedplayer/Elecdeka/1/500/400</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer>http://www.zenex.com</referer>
-</regex>
-
-<thumbnail>http://4.bp.blogspot.com/--L1WkzExf-4/Wg17SUVb-XI/AAAAAAAACj8/XkJR-cH7rZssOjUy70bmMxmHGNoQJBkAgCK4BGAYYCw/s1600/yoruguito.jpg</thumbnail>
-<fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
-</item>
-
-******************
-******************
-
+**************************
 
 <item>
 <title>[B][COLOR red]• •   [/B][COLOR red]Canales Vera Tv   [COLOR red][B][COLOR red]• •[/B][/COLOR]</title>
