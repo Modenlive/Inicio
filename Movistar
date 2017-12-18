@@ -11,6 +11,13 @@
 *************************************************************
 
 <item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Programacion/G.H</title>
+<link>https://mdslivehls-i.akamaihd.net/hls/live/571672/realities/bitrate_4.m3u8</link>
+<thumbnail>https://s5.postimg.org/nniphciyf/gh.jpg</thumbnail>
+<fanart>http://www.elcomercio.es/noticias/201611/16/media/cortadas/gh-vip-5-kA3H-U2117440192e1F-575x323@El%20Comercio.jpg</fanart>
+</item>
+
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]AyE</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
@@ -576,6 +583,28 @@ referer>http://zagaiptv.eklablog.com/</referer>
 <thumbnail>http://1.bp.blogspot.com/-QiQgBHPbBvk/WdwqZVrhtQI/AAAAAAAAB2A/Ocv_Xw2bChEjQinbjj8HFHQfPiJSUa5NwCK4BGAYYCw/s1600/neox.jpg</thumbnail>
 <fanart>http://www.brandemia.org/wp-content/uploads/2011/07/neox_principal_logo.jpg</fanart>
 </item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Tv3</title>
+<link>http://aragontv.stream.flumotion.com/aragontv/live-hls/main.m3u8</link>
+<thumbnail>https://s5.postimg.org/q4ugolfpj/3.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/media/CrvlbXsWAAAMvW-.jpg</fanart>
+</item>
+ 
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]EITB</title>
+<link>http://etbvhlsnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@123113/master.m3u8</link>
+<thumbnail>https://s5.postimg.org/6zr7eugh3/eitb.jpg</thumbnail>
+<fanart>http://www.eitb.eus/multimedia/images/2012/10/10/721870/721870_Redimensionamiento_de__DSC7770_foto960.JPG</fanart>
+</item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Andorra TV</title>
+<link>http://194.158.80.31:443/live/rtva/master.m3u8</link>
+<thumbnail>https://s5.postimg.org/cnxi5qd3r/atvd.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
 
 
 ------------------
