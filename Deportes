@@ -189,8 +189,8 @@ item>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
+expres>videoUrl = '(.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embed.php?file=golesp&width=650&height=397 </page>
 <cookieJar></cookieJar>
 </regex>
