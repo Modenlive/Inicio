@@ -183,8 +183,8 @@ item>
 <fanart></fanart>
 <info></info>
 </item>
-
-<item>
+-------------------------------------------------------------------------
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]GolTV es</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -197,209 +197,16 @@ expres>source: '(.*?)'</expres>
 <thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6--Tc3QlBHZPKhtgbV5pDGYCq_zWAIBib8GOdlhO3GKqduxhViQ</thumbnail>
 <fanart></fanart>
 </item>
---------------------------------------------------------------------------
-
-item>
-<title>[B][COLOR blue]•   [/B][/COLOR]GolPeru</title>
-  <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
-			<regex>
-			<name>ip</name>
-			<expres>redirect=(.*)</expres>
-			<page>http://www.pubucaster.com:1935/loadbalancer</page>
-			</regex>
-			<regex>
-			<name>m3u8</name>
-			<expres>ea \+ "(.*?)"</expres>
-			<page>http://www.ucaster.me/membedplayer/golo09e/1/620/400</page>
-			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.ucaster.me</referer>
-			</regex> 
-			<regex>
-			<name>hls</name>
-			<expres>hlsUrl \+ \(\"(.*?)"</expres>
-			<page>http://www.ucaster.me/membedplayer/golo09e/1/620/400</page>
-			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-			<referer>http://www.ucaster.me</referer>
-			</regex>
-
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecdTif0K-6lcr36_mJtnwm5ON-DbQORMjOIkTmrtolHB5ALJg</thumbnail>
-<fanart></fanart> 
-</item> 
-
--------------------------------------------------------------------------------
-item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Claro Sport</title>
-<link>http://jjoo2016ch01-hlsfix.clarovideo.com/Content/hls/Live/Channel(jjoo2016ch01)/Stream(05)/index.m3u8</link> 
-<thumbnail>http://3.bp.blogspot.com/-DW5e-RY_KeU/WdelpPY9_TI/AAAAAAAABrE/igZQvXk4oD4wgSu8AnMdQ1KppV94-kGUACK4BGAYYCw/s1600/claro%2Bsport.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
-item>
-<title>[B][COLOR blue]•   [/B][COLOR]Latin American Sports HD[/COLOR]</title> 
-<link>http://vivoplay-i.akamaihd.net/hls/live/253483/canal2/master2500k.m3u8</link> 
-<thumbnail>http://4.bp.blogspot.com/-YwwJZNL1mAk/WdfdwYopTBI/AAAAAAAABsA/GPr6tS8QbtkXRGLuQX5Aq11mXh2QlajywCK4BGAYYCw/s1600/las.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
-item>
-<title>[B][COLOR blue]•   [/B][COLOR]PX Sports HD[/COLOR]</title> 
-<link>http://vivoplay-i.akamaihd.net/hls/live/255324/canal4/master2500k.m3u8</link> 
-<thumbnail>http://2.bp.blogspot.com/-9tRb56N5uXc/Wdfpqpq6umI/AAAAAAAABto/vJVdQrq1b2EHr897G1Tf0aZuZiIlGNOlwCK4BGAYYCw/s1600/px%2Bsport.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
---------------------------------------------------------------------------------
 
 <item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Deport Tv</title>
-<link>http://186.33.227.198/DXTV/smil:DXTV.smil/chunklist_w422200342_b800000_slesp.m3u8</link>
-<thumbnail>http://i.imgur.com/PxyIZNW.png</thumbnail>
-<fanart></fanart>
-<info></info>
-</item>
-
-item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Win Sports</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
-<regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live1/winsport.php</page>
-<referer>http://vercanalestv.com/tv/colombia/win-sports.html</referer>
-<agent>iPad</agent>
-</regex>
-<thumbnail>https://2.bp.blogspot.com/-Q-Aa5I2t2UQ/Vzprkbdp8qI/AAAAAAAAkoQ/Dgjnk3elXcQfV7kwrvY2GOROrKatZRJLACLcB/s320/Win_Sport_logo.png</thumbnail>
+<title>[B][COLOR blue]•   [/B][/COLOR]GolTV es</title>
+<sportsdevil>http://latelete.tv/goltv-en-directo-gratis-por-internet/</sportsdevil>
+<referer>http://latelete.tv/</referer>
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6--Tc3QlBHZPKhtgbV5pDGYCq_zWAIBib8GOdlhO3GKqduxhViQ</thumbnail>
 <fanart></fanart>
 </item>
 
 ------------------------------------------------
-
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Todo Deportes</title>
-<link>http://190.92.0.43:1935/securelive/tdtv85jd5EKL3xWq3/chunklist_w1241310319.m3u8|User-Agent=ArtearPlayer/3.2.42 (Linux;Android 4.4.2) ExoPlayerLib/1.5.9</link>
-<thumbnail>http://i.imgur.com/p7DAIKG.png</thumbnail>
-<fanart></fanart>
-<info></info>
-</item>
-
-
------------------------------------------
-item>
-<title>[B][COLOR blue]•   [/B][/COLOR]TDN</title>
-<link>rtmp://$doregex[ip]/live playpath=YouTVOp1?id=256441$doregex[pk] swfUrl=http://www.mipsplayer.com/content/scripts/fplayer.swf tcUrl=rtmp://mips.tv:1935/live/
-pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link>
-<regex>
-<name>ip</name>
-<expres>redirect=(.*)<expres>
-<page>http://cdn.mipspublisher.com:1935/loadbalancer</page>
-</regex>
-
-<regex>
-<name>pk</name>
-<expres>ea=(.*)'</expres>
-<page>http://www.mipsplayer.com/embedplayer/YouTVOp1/1/830/500</page>
-<referer>http://www.mipsplayer.com/YouTVOp1</referer>
-</regex>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/8/84/Logo_TDN.png</thumbnail>
-<fanart></fanart>
-</item>
-
------------------------------------------------
-
-
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Deportes 1</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=deporteone&width=650&height=397&autostart=true</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/imagenes/movistar-deportes.jpg</thumbnail>
-<fanart></fanart>
-</item>	
-
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Deportes 2</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=deportedosm&width=650&height=397&autostart=true</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/imagenes/movistar-depores-2.jpg</thumbnail>
-<fanart></fanart>
-</item>	
-		
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Eurosport 1</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=eurosportsesp&width=650&height=397&autostart=true</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vertutele.com/img/eurosport.png</thumbnail>
-<fanart></fanart>
-</item>		
-	
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Eurosport 2</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=eurosportsdosesp&width=650&height=397&autostart=true</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vertutele.com/img/eurosport2.png</thumbnail>
-<fanart></fanart>
-</item>		
-		
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Teledeportes</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=teledeporteesp&width=650&height=397&autostart=true</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Logotipo_de_Teledeporte%2C_tdp.svg/600px-Logotipo_de_Teledeporte%2C_tdp.svg.png</thumbnail>
-<fanart></fanart>
-</item>	
-
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Bein la liga</title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=beinlaliga&width=650&height=397</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/imagenes/bein-spor-liga.jpg<thumbnail>http://tvjaja.com/img/bein.png</thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
-------------------------------------------------
-
-<item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Being Sport</title>
-<sportsdevil>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</sportsdevil>
-<referer>http://www.vipgoal.net/</referer>
-<thumbnail>http://tvjaja.com/img/bein.png</thumbnail>
-</item>
 
 <item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Sporttv 1a pt</title>
@@ -473,10 +280,183 @@ expres>source: '(.*?)'</expres>
 <thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/9/9a/Sporttv5.png/96px-Sporttv5.png</thumbnail>
 <fanart></fanart>
 </item>
-
-
-
 ----------------------------------------
+
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]GolPeru</title>
+  <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
+			<regex>
+			<name>ip</name>
+			<expres>redirect=(.*)</expres>
+			<page>http://www.pubucaster.com:1935/loadbalancer</page>
+			</regex>
+			<regex>
+			<name>m3u8</name>
+			<expres>ea \+ "(.*?)"</expres>
+			<page>http://www.ucaster.me/membedplayer/golo09e/1/620/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.ucaster.me</referer>
+			</regex> 
+			<regex>
+			<name>hls</name>
+			<expres>hlsUrl \+ \(\"(.*?)"</expres>
+			<page>http://www.ucaster.me/membedplayer/golo09e/1/620/400</page>
+			<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+			<referer>http://www.ucaster.me</referer>
+			</regex>
+
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSecdTif0K-6lcr36_mJtnwm5ON-DbQORMjOIkTmrtolHB5ALJg</thumbnail>
+<fanart></fanart> 
+</item> 
+--------------------------------------------------------------------------------
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Deport Tv</title>
+<link>http://186.33.227.198/DXTV/smil:DXTV.smil/chunklist_w422200342_b800000_slesp.m3u8</link>
+<thumbnail>http://i.imgur.com/PxyIZNW.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Win Sports</title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/winsport.php</page>
+<referer>http://vercanalestv.com/tv/colombia/win-sports.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-Q-Aa5I2t2UQ/Vzprkbdp8qI/AAAAAAAAkoQ/Dgjnk3elXcQfV7kwrvY2GOROrKatZRJLACLcB/s320/Win_Sport_logo.png</thumbnail>
+<fanart></fanart>
+</item>
+
+------------------------------------------------
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Todo Deportes</title>
+<link>http://190.92.0.43:1935/securelive/tdtv85jd5EKL3xWq3/chunklist_w1241310319.m3u8|User-Agent=ArtearPlayer/3.2.42 (Linux;Android 4.4.2) ExoPlayerLib/1.5.9</link>
+<thumbnail>http://i.imgur.com/p7DAIKG.png</thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Deportes 1</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=deporteone&width=650&height=397&autostart=true</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/imagenes/movistar-deportes.jpg</thumbnail>
+<fanart></fanart>
+</item>	
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Deportes 1</title>
+<sportsdevil>http://zagaiptv.eklablog.com/canal-deportes-spain-p1157316</sportsdevil>
+<referer>http://zagaiptv.eklablog.com/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/movistar-deportes.jpg</thumbnail>
+<fanart></fanart>
+</item>	
+-----------------------------------------------
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Deportes 2</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=deportedosm&width=650&height=397&autostart=true</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/imagenes/movistar-depores-2.jpg</thumbnail>
+<fanart></fanart>
+</item>	
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Deportes 2</title>
+<sportsdevil>http://zagaiptv.eklablog.com/deportes-2-p1157520</sportsdevil>
+<referer>http://zagaiptv.eklablog.com/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/movistar-depores-2.jpg</thumbnail>
+<fanart></fanart>
+</item>	
+-------------------------------------------------
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Eurosport 1</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=eurosportsesp&width=650&height=397&autostart=true</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vertutele.com/img/eurosport.png</thumbnail>
+<fanart></fanart>
+</item>		
+---------------------------------	
+item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Eurosport 2</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=eurosportsdosesp&width=650&height=397&autostart=true</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vertutele.com/img/eurosport2.png</thumbnail>
+<fanart></fanart>
+</item>		
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Eurosport 2</title>
+<sportsdevil>http://zagaiptv.eklablog.com/eurosport2-spain-p1157324</sportsdevil>
+<referer>http://zagaiptv.eklablog.com/</referer>
+<thumbnail>http://vertutele.com/img/eurosport2.png</thumbnail>
+<fanart></fanart>
+</item>	
+------------------------------------
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Teledeportes</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=teledeporteesp&width=650&height=397&autostart=true</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Logotipo_de_Teledeporte%2C_tdp.svg/600px-Logotipo_de_Teledeporte%2C_tdp.svg.png</thumbnail>
+<fanart></fanart>
+</item>	
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Bein la liga</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinlaliga&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/imagenes/bein-spor-liga.jpg<thumbnail>http://tvjaja.com/img/bein.png</thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+------------------------------------------------
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Being Sport</title>
+<sportsdevil>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</sportsdevil>
+<referer>http://www.vipgoal.net/</referer>
+<thumbnail>http://tvjaja.com/img/bein.png</thumbnail>
+</item>
+
 <item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Sportv br</title>
 <link>$doregex[Igor_Rangel_Ch]</link>
