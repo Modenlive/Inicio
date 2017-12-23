@@ -25,7 +25,7 @@ item>
 <fanart></fanart>
 </item> 
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]DirecTv</title>
  
 <link>http://$doregex[ip]$doregex[m3u8]</link>
@@ -89,43 +89,43 @@ item>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/01/tv-foxsports-uru-16-hd.png</thumbnail>
 </item>
  
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 1</title>
 <link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS_HD)/Stream(01)/index.m3u8 </link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2014/05/tv-foxsports-arg-16-hd.png</thumbnail>
 </item>
  
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 2</title>
 <link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS2_HD)/Stream(01)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/02/tv-foxsports-2-16-hd.png</thumbnail>
 </item>
  
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 3</title>
 <link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS3_HD)/Stream(01)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/07/tv-foxsports-3-16.png</thumbnail>
 </item>
  
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]ESPN 1</title>
 <link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN_HD)/Stream(05)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn.png</thumbnail>
 </item>
  
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]ESPN 1 (op 2)</title>
 <link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN_HD)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn2.png</thumbnail>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]ESPN 2</title>
 <link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN2_HD)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn2.png</thumbnail>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]ESPN 3</title>
 <link>http://189.216.247.113/Content/HLS/Live/Channel(ESPN3)/Stream(06)/index.m3u8</link>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/09/tv-espn3.png</thumbnail>
@@ -184,7 +184,7 @@ item>
 <info></info>
 </item>
 -------------------------------------------------------------------------
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]GolTV es</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -198,7 +198,7 @@ expres>source: '(.*?)'</expres>
 <fanart></fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]GolTV es</title>
 <sportsdevil>http://latelete.tv/goltv-en-directo-gratis-por-internet/</sportsdevil>
 <referer>http://latelete.tv/</referer>
@@ -342,7 +342,7 @@ item>
 <info></info>
 </item>
 
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Deportes 1</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -356,7 +356,7 @@ expres>source: '(.*?)'</expres>
 <fanart></fanart>
 </item>	
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Deportes 1</title>
 <sportsdevil>http://zagaiptv.eklablog.com/canal-deportes-spain-p1157316</sportsdevil>
 <referer>http://zagaiptv.eklablog.com/</referer>
@@ -364,7 +364,7 @@ expres>source: '(.*?)'</expres>
 <fanart></fanart>
 </item>	
 -----------------------------------------------
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Deportes 2</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -378,7 +378,7 @@ expres>source: '(.*?)'</expres>
 <fanart></fanart>
 </item>	
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Deportes 2</title>
 <sportsdevil>http://zagaiptv.eklablog.com/deportes-2-p1157520</sportsdevil>
 <referer>http://zagaiptv.eklablog.com/</referer>
@@ -400,7 +400,7 @@ expres>source: '(.*?)'</expres>
 <fanart></fanart>
 </item>		
 ---------------------------------	
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Eurosport 2</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
@@ -414,7 +414,7 @@ expres>source: '(.*?)'</expres>
 <fanart></fanart>
 </item>		
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Eurosport 2</title>
 <sportsdevil>http://zagaiptv.eklablog.com/eurosport2-spain-p1157324</sportsdevil>
 <referer>http://zagaiptv.eklablog.com/</referer>
