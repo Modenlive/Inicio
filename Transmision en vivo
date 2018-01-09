@@ -191,7 +191,7 @@ item>
 </item>
 *********************
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]NBA TV</title>
 <link>$doregex[get-url]</link>
 <regex>
