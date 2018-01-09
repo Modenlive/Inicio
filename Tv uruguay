@@ -183,6 +183,26 @@ item>
 </item>
 
 <item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Maroñas Entertainment</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6056</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/gvktct7ix/atretin.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6056/240/default.jpg</fanart>
+</item>
+
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Programacion turistica de Uruguay</title>
 <link>$doregex[get-url]</link>
 <regex>
@@ -604,7 +624,7 @@ thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz
 </item>
 
 <item>
-<title>[B][COLOR blue]•   [/B][/COLOR]Canal cv10</title>
+<title>[B][COLOR blue]•   [/B][/COLOR]Canal CV 10 hd</title>
 <link>$doregex[get-url]</link>
 <regex>
 <name>get-url</name>
@@ -619,8 +639,48 @@ thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz
 <referer>http://tv.vera.com.uy</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://1.bp.blogspot.com/-OUQdAkoPeeI/WdzJUpscumI/AAAAAAAAB4w/8W_cZWKOG8o-I4eHdiZUq3MSyJ0fWHyqQCK4BGAYYCw/s1600/cv10.jpg</thumbnail>
+<thumbnail>https://s26.postimg.org/b7eilwnqx/fgdte.jpg</thumbnail>
 <fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/9880/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Música para soñar</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/28835</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/8q2renqzt/santon.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/28835/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]Tu ingles .tv</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/29432</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/sxg76y91l/ingla.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/29432/240/default.jpg</fanart>
 </item>
 
 <item>
