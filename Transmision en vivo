@@ -191,6 +191,26 @@ item>
 </item>
 *********************
 
+<item>
+<title>[B][COLOR blue]•   [/B][/COLOR]NBA TV</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/25229</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/uchrvqfah/nebo.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/25229/240/default.jpg</fanart>
+</item>
+
 ****************
 ****************
 ****************
