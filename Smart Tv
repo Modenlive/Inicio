@@ -112,7 +112,7 @@ expres>source: '(.*?)'</expres>
 <info></info>
 </item>
 
-<item>               
+item>               
 <title>[B][COLOR blue]•   [/B][/COLOR]Univision</title>
 <link>http://tecnotv.xyz/tv3/univision</link>
 <thumbnail>http://4.bp.blogspot.com/-H0QKjYKEH_w/WeAdBYJch-I/AAAAAAAACEI/Ot08WOg2JvMW4edqMb7VNovZpz7ktttkQCK4BGAYYCw/s1600/univision.jpg</thumbnail>
@@ -261,14 +261,14 @@ item>
 
 
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]HispanTV</title>
 <link>http://178.32.255.199:1935/live/hispantv/chunklist_w1362269254.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-wC-gavrJ1wE/WdbXZiWZ4jI/AAAAAAAABpk/sReuJ8eEqwwrbRuhFa8LdUqQ7VNFV0c3wCK4BGAYYCw/s1600/hispan%2Btv.jpg</thumbnail>
 <fanart>http://www.mediamoves.com/wp-content/uploads/2012/02/HispanTV-set.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]La Mega Mundial</title>
 <link>http://68.235.35.243:1935/lamegamundial/lamegamundial2/playlist.m3u8</link>
 <thumbnail>http://1.bp.blogspot.com/-ZZ23JgWDxmU/WdbXZYtHw6I/AAAAAAAABpU/C28KfjSz1lAC_KPuw6XXS6pLlUZiGAmGwCK4BGAYYCw/s1600/la%2Bmega%2Bmundial.jpg</thumbnail>
@@ -289,7 +289,7 @@ item>
 <fanart>http://2.bp.blogspot.com/-Lz6gwSQfFg0/TsAq7JqvUFI/AAAAAAAAAB0/ONIeOa3YYbE/s1600/nlayout_01.22.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]TV Marti</title>
 <link>http://ocb-lh.akamaihd.net/i/ocb_mpls_tvmc1@383606/master.m3u8</link>
 <thumbnail>http://2.bp.blogspot.com/-EUElFBXpPVI/WdbXZKaVEsI/AAAAAAAABpE/GDjovaEpSFEcKdIPefffGtYk8JgXun0jwCK4BGAYYCw/s1600/martin.jpg</thumbnail>
