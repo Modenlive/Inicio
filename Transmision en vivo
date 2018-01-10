@@ -9,7 +9,7 @@
 **************************
 <item>
 <title>[B][COLOR blue]•   [/B][/COLOR]VTV SD</title>
-<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/Andyes/Andyes/1450&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
+<link>plugin://plugin.video.f4mTester/?url=http://158.69.52.43:8000/live/Andyes/Andyes/1450.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=Elecdeka</link>
 <thumbnail>http://4.bp.blogspot.com/-Pd2Aa9BMFo0/WdzJPNDFInI/AAAAAAAAB38/zBBYiNhXfvMD-sBvqTFYn1KWgn_vDPeowCK4BGAYYCw/s1600/vtv.jpg</thumbnail>
 <fanart>https://images2.alphacoders.com/281/thumb-1920-281400.jpg</fanart>
 </item>
@@ -31,8 +31,8 @@ sharecast
 ******************************************
 
 <item>       
-title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR yellow] sharecast[COLOR red]  OFF[/COLOR]</title>
-<title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR blue]~ [COLOR deepskyblue]Barcelona vs Real Madrid 23/12/2017 9:00[COLOR yellow] sharecast[/COLOR]</title>
+<title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR yellow] sharecast[COLOR red]  OFF[/COLOR]</title>
+title>[B][COLOR blue]•   [/B][/COLOR]Elecdeka Online [COLOR blue]~ [COLOR deepskyblue]Barcelona vs Real Madrid 23/12/2017 9:00[COLOR yellow] sharecast[/COLOR]</title>
 
 <link>$doregex[m3u8]</link>
 <regex>
@@ -220,7 +220,7 @@ item>
 *********************
 Cambios 1
 *********************
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Hebraica vs Nacional – LUB [COLOR blue]~[/COLOR] [COLOR deepskyblue]22/12/2017 20:00 HD[/COLOR]</title>
 <link>$doregex[get-url]</link>
 <regex>
@@ -243,7 +243,7 @@ Cambios 1
 *********************
 Cambios 2
 *********************
-<item>
+item>
 <title>[B][COLOR blue]•   [/B][/COLOR]Golden State Warriors vs Denver Nuggets – NBA [COLOR blue]~[/COLOR] [COLOR deepskyblue]23/12/2017 22:15 HD[/COLOR]</title>
 <link>$doregex[get-url]</link>
 <regex>
