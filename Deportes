@@ -89,18 +89,34 @@ item>
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/01/tv-foxsports-uru-16-hd.png</thumbnail>
 </item>
  
-item>
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 1</title>
-<link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS_HD)/Stream(01)/index.m3u8 </link>
+
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[source: '(.*?)']]></expres>
+<page>http://depo.superligatv.com/foxsport.php</page>
+</regex>
+
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2014/05/tv-foxsports-arg-16-hd.png</thumbnail>
 </item>
- 
-item>
+
+
+<item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 2</title>
-<link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS2_HD)/Stream(01)/index.m3u8</link>
+
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[source: '(.*?)']]></expres>
+<page>http://depo.superligatv.com/foxsport2.php</page>
+</regex>
+
 <thumbnail>https://d1rkb03u2ginv9.cloudfront.net/wp-content/uploads/2015/02/tv-foxsports-2-16-hd.png</thumbnail>
 </item>
  
+  
 item>
 <title>[B][COLOR blue]•   [/B][/COLOR]FOX SPORTS 3</title>
 <link>http://tstv.lcdn.claro.net.co/Content/hls_clear/Live/Channel(FOX_SPORTS3_HD)/Stream(01)/index.m3u8</link>
