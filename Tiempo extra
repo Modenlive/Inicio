@@ -149,7 +149,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://bro.adca.st/stream.php?id=
 </item>
 
 <item>
-<title>[B][COLOR blue]•   [/B][/COLOR]RivoSport 248 [COLOR blue]~[COLOR deepskyblue] Bein ñ [COLOR deepblue]~[COLOR deepskyblue] EspnDeportes [COLOR blue]~[COLOR deepskyblue] Univision Deportes[/COLOR]</title>
+<title>[B][COLOR blue]•   [/B][/COLOR]RivoSport 248 [COLOR blue]~[COLOR deepskyblue] Bein ñ [COLOR blue]~[COLOR deepskyblue] EspnDeportes [COLOR blue]~[COLOR deepskyblue] Univision Deportes[/COLOR]</title>
 
 <link>$doregex[bro.adca.st]</link>
 <regex>
