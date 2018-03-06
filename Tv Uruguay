@@ -1,0 +1,1155 @@
+<item>
+<title>[COLOR red]# #   [COLOR red]Canales Uruguay   [COLOR red][COLOR red]# #[/COLOR][/COLOR]</title>
+<link>http://d.mimp3.eu/i/8palSqoimWoficooZ6ncaaZk253/himno-nacional-uruguayo.mp3<link>
+<thumbnail>http://4.bp.blogspot.com/-fBRKRW6LXvw/Wg17SSeHL-I/AAAAAAAACj4/peuwpOSXDXMu8ZDZQzfjgEDzsFaKi9PNQCK4BGAYYCw/s1600/yoriin.jpg</thumbnail>
+<fanart>http://www.g3newswire.com/wp-content/uploads/2014/03/Conrad-Punta-Del-Este-Resort.jpg</fanart> 
+<info></info>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Monte Carlo TV[/COLOR]</title>
+<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=LVUY0002</link>
+<thumbnail>http://3.bp.blogspot.com/-nmhH6RYEez4/WdzJUX3HNVI/AAAAAAAAB6g/Lf4ldgMUuNAmIgkxHdmx3GBnQGVYK_OigCK4BGAYYCw/s1600/canal%2B4.jpg</thumbnail>
+<fanart>http://eltelescopio.com.uy/wp-content/uploads/2016/05/Monte-Carlo-Tv-2-web.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 7[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/10425</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-3pSRWDygxqY/WdzJUhdVzTI/AAAAAAAAB40/cpv2RinzhW4BquK_KWp5XATAisXq0RgSwCK4BGAYYCw/s1600/canal%2B7.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-LDp5X2y2cf0/WdeKii2yQII/AAAAAAAABq0/u0VojHHQfPMYrfeE2nAD8UkEeCcXBU7TACK4BGAYYCw/s1600/Sin%2Bt%25C3%25ADtulo-1.jpg</fanart>
+</item>
+
+---------------------------
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Teledoce[/COLOR]</title>
+<link>http://api.new.livestream.com/accounts/13567583/events/6415731/live.m3u8</link>
+<thumbnail>http://3.bp.blogspot.com/-P3nIlGjOlD0/WdzKioS-gMI/AAAAAAAAB-U/r_9al-mPdB0yLoWMLw9Anr5Vb5O95wCQwCK4BGAYYCw/s1600/tele.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/media/CIyDP9TW8AAS1TE.jpg</fanart>
+</item>
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=LVUY0001
+
+item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Teledoce[/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36&amp;Referer=http://livestream.com/accounts/13567583/events/6415731/player?width=960&amp;height=540&amp;autoPlay=true&amp;mute=false&amp;X-Requested-With=ShockwaveFlash/22.0.0.192</link>
+<regex>
+<name>url</name>
+<expres>smil","m3u8_url":"(.*)","secure_m3u8_url</expres>
+<page>https://livestream.com/accounts/13567583/events/6415731/player?width=960&height=540&enableInfoAndActivity=false&autoPlay=true&mute=false</page>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-P3nIlGjOlD0/WdzKioS-gMI/AAAAAAAAB-U/r_9al-mPdB0yLoWMLw9Anr5Vb5O95wCQwCK4BGAYYCw/s1600/tele.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/media/CIyDP9TW8AAS1TE.jpg</fanart>
+</item>
+
+-----------------------------
+
+<item>
+<title>[COLOR blue]#  [/COLOR]VTV</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>videoUrl = '(.*?)'
+<page>http://livesports.pw/embedna.php?file=vtvu&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-Pd2Aa9BMFo0/WdzJPNDFInI/AAAAAAAAB38/zBBYiNhXfvMD-sBvqTFYn1KWgn_vDPeowCK4BGAYYCw/s1600/vtv.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
+</item>
+
+----------------------
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Vera HD[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6001</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-K9V0_Jr6l38/WdzJO8ASM0I/AAAAAAAAB30/2rgpLCcpRPwgHY6Gr-3ew79Q1QeZTmowgCK4BGAYYCw/s1600/vera%2Btv%2B%252B.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6001/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Vera + [/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/17765</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-vaTrjieMra8/WdzaElmyUQI/AAAAAAAAB-8/13Q7XUn1JEwX6h5e2HfQjqKTKOFYQ09GACK4BGAYYCw/s1600/VERATV.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/17765/240/default.jpg<fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Maroñas Entertainment[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6056</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/gvktct7ix/atretin.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6056/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Programacion turistica de Uruguay[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6068</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-PrbIhZKYlFc/WdzJUET8R6I/AAAAAAAAB9s/YJh6uBZ9vI0FfDEhqrVV4VihCshUwHcFACK4BGAYYCw/s1600/natural.jpg</thumbnail>
+<fanart>http://untv-v3.images.production.s3.amazonaws.com/uploads/image/image/522/UNTV-24-horas-EN-VIVO.png</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 12 Melo[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6074</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-FDc3-sjoDF8/WdzJUYjrdRI/AAAAAAAAB4k/UwZiXuMjxo4eF6lhaClNMbyvFL5Hi84SwCK4BGAYYCw/s1600/canal%2B12.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/NvydQTgAx-k/hqdefault.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]TNU[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6042</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-XdCg6xh03qY/WdzJUQ8fmFI/AAAAAAAAB6M/vPwk7m5pQ8s1RI42KzgprpSvEDIcNbuAwCK4BGAYYCw/s1600/television%2Bnacional.jpg</thumbnail>
+<fanart>https://t2.kn3.net/taringa/3/4/8/6/5/1/SpammerMan/9D4.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Tv Ciudad[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6046</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz0ngPTCvdESfELJlB_jdlwkFGACK4BGAYYCw/s1600/tv%2Bciudad%2Bdiversidad.jpg</thumbnail>
+<thumbnail>http://1.bp.blogspot.com/-G1olsDY4lgU/WdzJUfp5X8I/AAAAAAAAB8s/Iccig8umGYk90nnT2XKyMcctImiH4xoEACK4BGAYYCw/s1600/tv%2Bciudad.jpg</thumbnail>
+<fanart>http://www.carve850.com.uy/wp-content/uploads/2016/08/tv-ciudad.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal U[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/7609</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://1.bp.blogspot.com/-Ei-uHTPf0ig/WdzJUZxp_LI/AAAAAAAAB84/F7N1nIs6fL8uCbKkYVEpjSuCSXsn9iuZgCK4BGAYYCw/s1600/canal%2Bu.jpg</thumbnail>
+<fanart>http://www.frutifull.com/imgs/uploaded/company/canal_u.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal M[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/21259</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-e1_EmfkE7eg/WdzaEGX9oPI/AAAAAAAAB-0/-DaIlm0XSOcx579mbWy165YX0NZOYHGEQCK4BGAYYCw/s1600/RTET.jpg</thumbnail>
+<fanart>http://www.canalm.tv/plantillas/imagenes/logo-canalm.png</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]1000 x Hra Tv[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/31488</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-ryglnDz1dEk/WdzJUS_Sw-I/AAAAAAAAB7s/CNNYl6C6ok8xhrpG-OblPiF5ZKUrmgSegCK4BGAYYCw/s1600/1000xhora.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/1DUXh5Bmfzw/maxresdefault_live.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]a+V[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6707</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://1.bp.blogspot.com/-5b3OAEpJEpA/WdzJUN3yUuI/AAAAAAAAB94/lIwEbmcg5BAN_XIvzMWUEduTKdXUEUTGgCK4BGAYYCw/s1600/a%252Bv.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6707/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 2 San Carlos[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/8204</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-JT2klEOIGpQ/WdzJUbL7WOI/AAAAAAAAB5s/HypWvp5DnxsIrRXUCpaNpodMsz3cAWlZACK4BGAYYCw/s1600/canal%2B2%2Bsan%2Bcarlos.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/8204/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 11 Treinta y Tres[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6853</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-uHAUPQ-blIA/WdzJUUFjF6I/AAAAAAAAB6w/Q44CHZmNpeI3GfFxLudiWkM7G_FwtZafACK4BGAYYCw/s1600/canal%2B111.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6853/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 11 Las Piedras[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6055</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-WSD0wP5xIMA/WdzJUVWYZQI/AAAAAAAAB9M/da0ta8F08swz79WHZWUVsu166inf08HBACK4BGAYYCw/s1600/canal11otro.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6055/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Soy Tacuarembo[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6880</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://1.bp.blogspot.com/-gJj4wpulR4U/WdzJUXu1nBI/AAAAAAAAB68/Xvk8xqdQTUQ5oAgjrMYVkx6v7aSn1tadgCK4BGAYYCw/s1600/si.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6880/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]RTV[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6085</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-_uXCHgLoUtI/WdzJUVZXf0I/AAAAAAAAB78/sEFQwiMKRN80rfkQNCUqOlUk6JsNasNyQCK4BGAYYCw/s1600/rtv.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6085/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Rio Uruguay HD[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/10032</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-Xvbz3B-jU24/WdzJUYKgu-I/AAAAAAAAB7M/TFKfBrMPReY4g9zzSnp4j265BZNPcYwugCK4BGAYYCw/s1600/rioyarugua.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/10032/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 23 TVD[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/8961</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-Lhy2GHSLW8w/WdzaEUwTduI/AAAAAAAAB-s/vB3ypnDWrPM4SvmSOQ5Y3P4lcDmSQLDGgCK4BGAYYCw/s1600/TVDFF.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/8961/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 4 Paysandu[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/9239</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-oAd1i9Aa3j8/WdzJUcjHz8I/AAAAAAAAB5o/VVGTL-3aeHMSzstlu9zUa3Vloh5xKq1vACK4BGAYYCw/s1600/canal%2B4%2Bpaysandu.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/9239/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 2 Lascano[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6090</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-gMc8i9cPtLM/WdzJUIu0GcI/AAAAAAAAB7I/9i4RFgs7pfkSDkWF8zgWNjo3NNDGNRxfgCK4BGAYYCw/s1600/canal%2B2%2Blascano.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6090/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 4 Chuy[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6057</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-t62dsH2_rgU/WdzJURuKokI/AAAAAAAAB7o/fIdPAxKLYO8mcCr_igCYilEfRKssJy-OACK4BGAYYCw/s1600/canal%2B4%2Bchuy.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6057/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Camara de representantes[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6763</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-4zoB4F6f1E8/WdzJULsj7bI/AAAAAAAAB-E/3-j77IxPXVoj-PqDGJJm75r0ZF_0BuanwCK4BGAYYCw/s1600/chantas.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6763/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 8 de Rocha[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6071</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-LY9P4MlOkhU/WdzJUn2C-gI/AAAAAAAAB5M/n3w5x5OQfG0s-1YJwSh8DzAzSsslayvogCK4BGAYYCw/s1600/canal%2B8bola.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6071/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 8 Salto[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6769</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-1Vi3XtBzejo/WdzJUR3SRDI/AAAAAAAAB54/TfyGcNB-4FkvEC3N_iR7hFV_mizyfrkxgCK4BGAYYCw/s1600/canalero8.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6769/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal CV 10 hd[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/9880</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/b7eilwnqx/fgdte.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/9880/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Música para soñar[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/28835</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/8q2renqzt/santon.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/28835/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Tu ingles .tv[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/29432</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/sxg76y91l/ingla.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/29432/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 4 salto[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/8081</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://1.bp.blogspot.com/-9JLbomqndg4/WdzJUfudKlI/AAAAAAAAB9I/ZgfMtBBHR6oUTRMOQLmgE7DN9C6kmrWDgCK4BGAYYCw/s1600/canal%2B4paro.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/8081/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Charrua tv[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6038</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-mdIIQMKQnRs/WdzJUT7zyAI/AAAAAAAAB48/CXbb2c9Ux1wWtKZz26w4_pPcfFj1xJeewCK4BGAYYCw/s1600/charruatv.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6038/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Tv Pando[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6764</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-b3QFipxHefc/WdzJUY0oAbI/AAAAAAAAB6Y/20TEVeimT2Ui0vP97eQqu54pGyyb3wJXQCK4BGAYYCw/s1600/televisionlocal.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6764/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Young tevé[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/11264</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-OFj2ywobV_k/WdzJT9oe-yI/AAAAAAAAB4M/2FCjMrf-FlMKLVb_wE63-f3J6BjExBBzgCK4BGAYYCw/s1600/c14young.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/11264/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Tv region[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6703</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-TP35c6caQhU/WdzJUqH22QI/AAAAAAAAB5A/zgl60oczz6M826cei45YvjatMQ6LV3X6gCK4BGAYYCw/s1600/regiontv.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6703/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Pop tv[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/14410</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-St-g0rDibHI/WdzJUVqWqRI/AAAAAAAAB8M/bLO8rTEGTZwr4YjndRuYiUcgi7OEYSvfwCK4BGAYYCw/s1600/pop.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/14410/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 4 trenta y tres[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6061</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-_67eeblh27s/WdzJUCVrBGI/AAAAAAAAB9Y/JFWcxfYAyJ4wENoVEpy_wk4tI5IGlKXBgCK4BGAYYCw/s1600/plaza%2Bcanal%2B4.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6061/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 4 juan lacaze[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6157</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-INuPBu-uHpQ/WdzJUSxmxEI/AAAAAAAAB5g/VoMRmTcM528aLyJ02MM2ZFR9N1ZQT1rQACK4BGAYYCw/s1600/canal4nfdkfj.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6157/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 8 durazno[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6077</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-YLUuHm3d3Ag/WdzJUTNHLDI/AAAAAAAAB8I/V1qkU5XCLU8OyTJRLMUDiyTtkjYakam1gCK4BGAYYCw/s1600/ocho.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6077/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 6 durazno[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6070</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-h5dJLPds6tE/WdzJUU9sZ8I/AAAAAAAAB58/imqbPTcbo4kn46-vDfMgf3lZYyVCYCSRQCK4BGAYYCw/s1600/zebra.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6070/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 8 artigas[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/9366</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-fRevgUD6Fk4/WdzJPrzTMmI/AAAAAAAAB4E/fG95VOpXkwcHxXRaemj2E5ARlACFpn3NwCK4BGAYYCw/s1600/8enartigas.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/9366/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 5 Colonia[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/8071</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-UcXn78UDv4g/WdzJUWqwoyI/AAAAAAAAB8o/gTidTA8kozcbhCk0zWHfF99MH1ytZeAKQCK4BGAYYCw/s1600/c5n.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/8071/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 8 Rivera[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/9369</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-3TFu3R1GlaY/WdzaENiYbRI/AAAAAAAAB-o/bzTrLvVu_Ccotj1-EMR4hwlmx0_ZN5t2gCK4BGAYYCw/s1600/RTET3434.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/9369/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]El espectador[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/10034</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-a72QvxYgn8U/WdzJUCdNxhI/AAAAAAAAB9c/gP7V-Fqi0Q4n-9ww7eZJgL7Np40T6kUSgCK4BGAYYCw/s1600/Espectador%2Btv.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/10034/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Tele 9 Rocha[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6067</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-H4zBHvDVTV4/WdzJUb7jh1I/AAAAAAAAB8Y/aUD1-yy4qdw3oCpJTVuT7f-_jtyi2L6TgCK4BGAYYCw/s1600/tele%2Brocha.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6067/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 2 vision[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/9411</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-D4yXO-nKL0o/WdzJUVrL0XI/AAAAAAAAB5c/SI-5axInj2QTLnOgUKnGdZkxPEhVrpsywCK4BGAYYCw/s1600/canal2vision.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/9411/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 3 hd[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/21426</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-AUFBByjcRRQ/WdzJUe4S5UI/AAAAAAAAB7Y/6ZwZoLV-6cs0XkpO_uX9LlF5eX_-LfFzgCK4BGAYYCw/s1600/canal3.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/21426/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Artigas TV[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6044</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-SCuji3lQv8k/WdzJUIPD4UI/AAAAAAAAB98/2HgyBLxrvAcvRVzhKoLGoE754M6rLsvSQCK4BGAYYCw/s1600/canal%2B3.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/6044/240/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Miem[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/19153</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-rt7dGi7CTCc/WdzJUXC8zJI/AAAAAAAAB7A/0lzL1yaUl-oL2AHIn3K1D_6XDgU7R3AgACK4BGAYYCw/s1600/miem.jpg</thumbnail>
+<fanart>http://veratvimgs.cdn.antel.net.uy/dynamic/content_images/19153/240/default.jpg</fanart>
+</item>
+************************
+-----------------------------------------------------
+
+
+
+
+
+-----------------------------------
+**************************
+Camaras
+**************************
+
+<item>
+<title>[COLOR red]# #   [COLOR red]Camaras Vera Tv   [COLOR red][COLOR red]# #[/COLOR][/COLOR]</title>
+<link>http://d.mimp3.eu/i/8palSqoimWoficooZ6ncaaZk253/himno-nacional-uruguayo.mp3<link>
+<thumbnail>http://2.bp.blogspot.com/-Mty8Ulvz_nc/WSBSya6GyOI/AAAAAAAABAc/J90u5tV4pA4y-txWbNuYKsq-3EaVbZUswCK4B/s1600/camara%2Bvera.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Plaza independencia[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/22</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/22/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/22/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Teatro Solis[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/27</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/27/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/27/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Plaza del Entrevero[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/32</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/32/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/32/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Peatonal Sarandi[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/34</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/34/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/34/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Plaza 1° de Mayo[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/26</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/26/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/26/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Paso Molino[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/33</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/33/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/33/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Mercado del Puerto[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/29</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/29/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/29/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Mercado Agrícola[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/24</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/24/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/24/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Intendencia de Montevideo[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/30</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/30/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/30/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Viaducto de Paso Molino[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/31</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/31/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/31/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Palacio Legislativo[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/28</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/28/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/28/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Montevideo, Sur[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/11</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/11/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/11/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Montevideo, Este[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/12</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/12/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/12/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Montevideo, Norte[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/13</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/13/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/13/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Montevideo, Oeste[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/14</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/14/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/14/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Terminal Río Branco[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/23</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/23/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/23/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Pista de Atletismo[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/16</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/16/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/16/128/default.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Playa Pocitos[/COLOR]</title>
+<sportsdevil>http://camaras.vera.com.uy/camara/35</sportsdevil>
+<referer>http://camaras.vera.com.uy</referer>
+<thumbnail>http://camaras.vera.com.uy/dynamic/cameras_images/35/128/default.jpg</thumbnail>
+<fanart>http://camaras.vera.com.uy/dynamic/cameras_images/35/128/default.jpg</fanart>
+</item>
