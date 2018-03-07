@@ -550,7 +550,7 @@ expres>videoUrl = '(.*?)'</expres>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR deepskyblue]Nickelodeon [COLOR lightslategray]TDP[/COLOR]</title> 
+<title>[COLOR blue]#  [/COLOR]Nickelodeon</title> 
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
 <name>GetPageUrl</name>
