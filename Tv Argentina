@@ -29,13 +29,6 @@
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]5R Tv[/COLOR]</title>
-<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=LVAR0186</link>
-<thumbnail>https://s26.postimg.org/5e717m789/logo-5R-silver_x2.jpg</thumbnail>
-<fanart>http://www.rts.com.ar/wp-content/uploads/sites/3/2015/11/logo-5rtv-noche.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR blue]#  [/COLOR]Canal 9</title> 
 <link>http://dwgoed11hdvfh.cloudfront.net/c9/smil:live.smil/playlist.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q)</link>
 <info></info>
