@@ -15,6 +15,13 @@
 </item>
 
 <item>
+<title>[COLOR blue]#  [/COLOR]America 2</title> 
+<link>https://dai.google.com/linear/hls/p/event/OY2i_lL4SMyXE5Zaj4ULEg/stream/53817c30-59df-441f-81eb-b9e2c68251e4:CHS/variant/085a2414a253631c90e7ac89ccc9f934/bandwidth/1031000.m3u8|Referer=https://vmf.edge-apps.net&User-Agent=Mozilla/5.0</link>
+<thumbnail>http://3.bp.blogspot.com/-EeJhD8HkwXs/WdaNiK-2vxI/AAAAAAAABkA/NnF-8sEYwmoTjdNWVvpA-4tf47dfN1UDwCK4BGAYYCw/s1600/america%2B2.jpg</thumbnail>
+<fanart>http://3.bp.blogspot.com/-tyOCh3clC_4/WdaNfmTsNgI/AAAAAAAABio/ab47wgWIB00k5megHgOv9r37sPKG9GWegCK4BGAYYCw/s1600/america%2B2.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Canal 4 Jujuy HD[/COLOR]</title> 
 <link>http://streaming.wirenetserver.com.ar:1935/canal4/live_1/playlist.m3u8</link> 
 <thumbnail>http://3.bp.blogspot.com/-bGsPTt7Ebuw/WdbKC4sLQGI/AAAAAAAABm8/ffn5y1k6x-8Fj5vNGYbSarV00c-Fm8HqwCK4BGAYYCw/s1600/canal%2B4%2Bjujuy.jpg</thumbnail>
@@ -22,10 +29,10 @@
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR]America 2</title> 
-<link>https://dai.google.com/linear/hls/p/event/OY2i_lL4SMyXE5Zaj4ULEg/stream/53817c30-59df-441f-81eb-b9e2c68251e4:CHS/variant/085a2414a253631c90e7ac89ccc9f934/bandwidth/1031000.m3u8</link> 
-<thumbnail>http://3.bp.blogspot.com/-EeJhD8HkwXs/WdaNiK-2vxI/AAAAAAAABkA/NnF-8sEYwmoTjdNWVvpA-4tf47dfN1UDwCK4BGAYYCw/s1600/america%2B2.jpg</thumbnail>
-<fanart>http://3.bp.blogspot.com/-tyOCh3clC_4/WdaNfmTsNgI/AAAAAAAABio/ab47wgWIB00k5megHgOv9r37sPKG9GWegCK4BGAYYCw/s1600/america%2B2.jpg</fanart>
+<title>[COLOR blue]#  [/COLOR][COLOR]5R Tv[/COLOR]</title>
+<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=LVAR0186</link>
+<thumbnail>https://s26.postimg.org/5e717m789/logo-5R-silver_x2.jpg</thumbnail>
+<fanart>http://www.rts.com.ar/wp-content/uploads/sites/3/2015/11/logo-5rtv-noche.jpg</fanart>
 </item>
 
 <item>
@@ -44,14 +51,14 @@ link>http://prepublish.f.qaotic.net/a14/ngrp:el12_live01-100083_all/chunklist_b1
 <fanart>http://artear.com.ar/assets/uploads/canales/940x529/56cac-eldoce.jpg</fanart>
 </item>
  
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR]El Trece</title> 
 <link>http://live-nyc.vaughnsoft.net:1935/live/_definst_/live_juan_13tv/chunklist.m3u8</link> 
 <thumbnail>http://1.bp.blogspot.com/-gSuD8MbjF98/WdaNiqpyeRI/AAAAAAAABk4/OsM1CZ7tsWwW-F7N1mwxGF03eioaJMMfgCK4BGAYYCw/s1600/el%2Btrece.jpg</thumbnail>
 <fanart>https://i.ytimg.com/vi/s7cPPjLahhM/maxresdefault.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR]Telefe</title> 
 <link>http://live-nyc.vaughnsoft.net:1935/live/_definst_/live_beto_26/chunklist.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-xHd7rFI0uXI/WdaNiwQoWMI/AAAAAAAABlI/yDYlhn09Fm0o0gnlJ83sotvf5I_5uR2VACK4BGAYYCw/s1600/telefe.jpg</thumbnail>
