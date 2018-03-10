@@ -3,25 +3,22 @@
 <link>nop</link>
 <thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail>
 <fanart>http://4.bp.blogspot.com/-Dvf63V1nLQ8/UUD0xCoXi1I/AAAAAAAAABw/F5X0PtkbuSc/s1600/id176.jpg</fanart> 
-</item><item><title>[COLOR blue]#  [/COLOR]Live Sport</title><link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link><regex><name>GetPageUrl</name><expres>source: '(.*?)'</expres><page>http://livesports.pw/embedna.php?file=vtvu&width=650&height=397</page><cookieJar></cookieJar></regex><thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail><fanart>http://4.bp.blogspot.com/-Dvf63V1nLQ8/UUD0xCoXi1I/AAAAAAAAABw/F5X0PtkbuSc/s1600/id176.jpg</fanart> </item><item><title>[COLOR blue]#  [/COLOR]Tarjeta Roja</title><sportsdevil>http://www.vtvandrestream.ml/2018/01/vtv-2.html</sportsdevil><referer>http://cndf68.blogspot.com.uy/p/1_17.html</referer><thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail><fanart>http://4.bp.blogspot.com/-Dvf63V1nLQ8/UUD0xCoXi1I/AAAAAAAAABw/F5X0PtkbuSc/s1600/id176.jpg</fanart> </item>
+</item>
 
-
-
-<item>      
-<title>[COLOR blue]#  [/COLOR]LiveStream</title>
+<item>
+<title>[COLOR blue]#  [/COLOR]Live Sport</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedna.php?file=vtvu&width=650&height=397</page>
 <cookieJar></cookieJar>
-</regex>
-<thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail>
+</regex><thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail>
 <fanart>http://4.bp.blogspot.com/-Dvf63V1nLQ8/UUD0xCoXi1I/AAAAAAAAABw/F5X0PtkbuSc/s1600/id176.jpg</fanart>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR]LiveStream  [COLOR lime]SportDevil [/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]Live Sport  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://livesports.pw/embedna.php?file=vtvu&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/vtv-de-uruguay-online/</referer>
 <thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail>
@@ -29,7 +26,7 @@
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR]RojaDirecta  [COLOR lime]SportDevil [/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]Tarjeta Roja</title>
 <sportsdevil>http://www.vtvandrestream.ml/2018/01/vtv-2.html</sportsdevil>
 <referer>http://cndf68.blogspot.com.uy/p/1_17.html</referer>
 <thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail>
