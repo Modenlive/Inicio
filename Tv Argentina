@@ -72,6 +72,13 @@
 </item>
 
 <item>
+<title>[COLOR blue]#  [/COLOR]Cronica Tv</title>
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/42.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+<thumbnail>http://4.bp.blogspot.com/-cuQjZ_R9GqA/WdaUYzy4RzI/AAAAAAAABlo/UdJ9qB2sOqkj-Rm66sm_T_1X9zkUwRcHgCK4BGAYYCw/s1600/cronica.jpg</thumbnail>
+<fanart>http://3.bp.blogspot.com/-9-DTnF-bQJU/WdaRV5MDhGI/AAAAAAAABlc/1fuPydPlhPUF6COVN9aLLcqDiQLE4rMrwCK4BGAYYCw/s1600/cronica%2Btv.png</fanart>
+</item>
+
+<item>
 <title>[COLOR blue]#  [/COLOR]Ciudad Magazine HD</title>
 <link>https://prepublish.f.qaotic.net/a05/ngrp:magazine_live01-100083_all/magazine_live01-100083_720p.m3u8|Referer=http://vmf.edge-apps.net&User-Agent=Mozilla/5.0</link>
 <thumbnail>http://1.bp.blogspot.com/-cZcn_5Fz-Nw/WdaNiTlbleI/AAAAAAAABkg/XvBWTxapTOQQO943BlgRTenMuTpGMOT3QCK4BGAYYCw/s1600/Ciudad%2BMagazing.jpg</thumbnail>
