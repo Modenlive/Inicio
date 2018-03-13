@@ -33,6 +33,15 @@
 <fanart>http://2.bp.blogspot.com/-LDp5X2y2cf0/WdeKii2yQII/AAAAAAAABq0/u0VojHHQfPMYrfeE2nAD8UkEeCcXBU7TACK4BGAYYCw/s1600/Sin%2Bt%25C3%25ADtulo-1.jpg</fanart>
 </item>
 
+------------
+
+<item>
+<title>[COLOR blue]#  [/COLOR]Canal 10</title>
+<link>plugin://plugin.video.f4mTester/?url=http://p4.giffy.be:8080/live/test12345/test12345/32500.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+<thumbnail>http://3.bp.blogspot.com/-q9q9EjHUo3M/WdzJURAX4bI/AAAAAAAAB5Q/_EWgQ3a1-3oPoDzkGopP-CL8kJPK1AU-gCK4BGAYYCw/s1600/canal%2B10.jpg</thumbnail>
+<fanart>http://brecha.com.uy/wp-content/uploads/2017/04/02-Canal-10-Foto-FERNANDO-PENA.jpg</fanart>
+</item>
+
 ---------------------------
 
 <item>
@@ -41,24 +50,11 @@
 <thumbnail>http://3.bp.blogspot.com/-P3nIlGjOlD0/WdzKioS-gMI/AAAAAAAAB-U/r_9al-mPdB0yLoWMLw9Anr5Vb5O95wCQwCK4BGAYYCw/s1600/tele.jpg</thumbnail>
 <fanart>https://pbs.twimg.com/media/CIyDP9TW8AAS1TE.jpg</fanart>
 </item>
-http://www.radiosargentina.com.ar/php/tvm3u.php?id=LVUY0001
-
-item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Teledoce[/COLOR]</title>
-<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36&amp;Referer=http://livestream.com/accounts/13567583/events/6415731/player?width=960&amp;height=540&amp;autoPlay=true&amp;mute=false&amp;X-Requested-With=ShockwaveFlash/22.0.0.192</link>
-<regex>
-<name>url</name>
-<expres>smil","m3u8_url":"(.*)","secure_m3u8_url</expres>
-<page>https://livestream.com/accounts/13567583/events/6415731/player?width=960&height=540&enableInfoAndActivity=false&autoPlay=true&mute=false</page>
-</regex>
-<thumbnail>http://3.bp.blogspot.com/-P3nIlGjOlD0/WdzKioS-gMI/AAAAAAAAB-U/r_9al-mPdB0yLoWMLw9Anr5Vb5O95wCQwCK4BGAYYCw/s1600/tele.jpg</thumbnail>
-<fanart>https://pbs.twimg.com/media/CIyDP9TW8AAS1TE.jpg</fanart>
-</item>
 
 -----------------------------
 
 <item>
-<title>[COLOR blue]#  [/COLOR]VTV</title>
+<title>[COLOR blue]#  [/COLOR]VTV (op 1)</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -66,6 +62,14 @@ item>
 <page>http://livesports.pw/embedna.php?file=vtvu&width=650&height=397</page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>http://4.bp.blogspot.com/-Pd2Aa9BMFo0/WdzJPNDFInI/AAAAAAAAB38/zBBYiNhXfvMD-sBvqTFYn1KWgn_vDPeowCK4BGAYYCw/s1600/vtv.jpg</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]VTV (op 2)</title>
+<sportsdevil>http://livesports.pw/embedna.php?file=vtvu&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/vtv-de-uruguay-online/</referer>
 <thumbnail>http://4.bp.blogspot.com/-Pd2Aa9BMFo0/WdzJPNDFInI/AAAAAAAAB38/zBBYiNhXfvMD-sBvqTFYn1KWgn_vDPeowCK4BGAYYCw/s1600/vtv.jpg</thumbnail>
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
 </item>
