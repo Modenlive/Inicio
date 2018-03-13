@@ -136,15 +136,8 @@ link>http://live-edge01.telecentro.net.ar/live/26hd-720/playlist.m3u8</link>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Tec TV HD[/COLOR]</title> 
-<link>http://tectvhls-lh.akamaihd.net/i/tectvHLS_1@334993/master.m3u8</link> 
-<thumbnail>http://4.bp.blogspot.com/-eaUtBdYDmRY/WdbKChnNKgI/AAAAAAAABmg/YKC1QG_uWuYxJnY3pIDuIEgZimIgEnUQgCK4BGAYYCw/s1600/tec%2Btv.jpg</thumbnail>
-<fanart>http://www.mincyt.gob.ar/adjuntos/imagenes/000/053/0000053107.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR blue]#  [/COLOR][COLOR]RIONEGRINA TV Rio Negro[/COLOR]</title>
-<link>http://panel.dattalive.com:1935/8204/8204/playlist.m3u8</link>
+<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0165</link>
 <thumbnail>http://1.bp.blogspot.com/-gfbe7RQRsWA/Wdut85_czcI/AAAAAAAABwg/nJq4e66ADZUUUgDAL2GNpA9SGJ1IrC1XgCK4BGAYYCw/s1600/hgfdsjgfsd.jpg</thumbnail>
 <fanart>https://s5.postimg.org/vf1o29lfr/28429-e09abe4b-4122-4b46-82bb-e2d52bf1f338.jpg</fanart>
 </item>
@@ -193,26 +186,11 @@ link>http://live-edge01.telecentro.net.ar/live/26hd-720/playlist.m3u8</link>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Paka Paka[/COLOR]</title>
-<link>http://lsdencuentrohls-lh.akamaihd.net/i/PKPKHLS_1@198010/master.m3u8</link>
-<thumbnail>http://4.bp.blogspot.com/-2DwIkhoRJQU/Wdut85fr8vI/AAAAAAAABwQ/jOBHyFX4fSwxCfHHWSOiuB-euqZ3iCOhgCK4BGAYYCw/s1600/pacadt.jpg</thumbnail>
-<fanart>https://i.imgur.com/tp4oYpJ.png</fanart>
-</item>
-
-<item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Tv Universidad TV (La Plata)[/COLOR]</title>
-<link>rtmp://stratus.stream.cespi.unlp.edu.ar:80/stream/tvunlp</link>
-<thumbnail>http://4.bp.blogspot.com/-MdQht-qtFzE/Wdut8x3bZ-I/AAAAAAAABvg/soxQeZVAfKsniejulZGZ5RGmY8cCHBleACK4BGAYYCw/s1600/tv%2Bunita.jpg</thumbnail>
-<fanart>https://s5.postimg.org/vu4hkechz/photo.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR blue]#  [/COLOR][COLOR]UNIVERSITARIA DE MISIONES[/COLOR]</title>
 <link>http://184.154.28.210:1935/unm/unm/playlist.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-3xdLfkOkujA/WdvFAPfWxII/AAAAAAAAByg/SmqE77V8vYMs21mzKHLhAzl691RjwB2PQCK4BGAYYCw/s1600/universidad.jpg</thumbnail>
 <fanart>https://s5.postimg.org/mhgy4wszr/unnamed_68.jpg</fanart>
 </item>
-
 
 <item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Solidaria TV[/COLOR]</title>
