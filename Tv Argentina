@@ -72,6 +72,13 @@
 </item>
 
 <item>
+<title>[COLOR blue]#  [/COLOR]TN Noticias</title>
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/46.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link> 
+<thumbnail>http://2.bp.blogspot.com/-mKzT0kbtZME/WdaNhzuSNGI/AAAAAAAABjo/GsMLZW9HeXAfZ3FmlAJti7vuFdW5XTbdwCK4BGAYYCw/s1600/tn.jpg</thumbnail>
+<fanart>http://3.bp.blogspot.com/-t6TRelb9SA4/WdaNhKYS42I/AAAAAAAABjY/ytqFAX5gSpko4HDr0u7IrOmTfIIU6MnQACK4BGAYYCw/s1600/tn.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR blue]#  [/COLOR]Cronica Tv</title>
 <link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/42.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
 <thumbnail>http://4.bp.blogspot.com/-cuQjZ_R9GqA/WdaUYzy4RzI/AAAAAAAABlo/UdJ9qB2sOqkj-Rm66sm_T_1X9zkUwRcHgCK4BGAYYCw/s1600/cronica.jpg</thumbnail>
