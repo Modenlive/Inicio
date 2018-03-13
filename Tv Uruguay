@@ -56,7 +56,7 @@
 ------------
 
 <item>
-<title>[COLOR red]#  [/COLOR]Canal 10</title>
+<title>[COLOR blue]#  [/COLOR]Canal 10 (Noticias)</title>
 link>plugin://plugin.video.f4mTester/?url=http://p4.giffy.be:8080/live/test12345/test12345/32500.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
 <link>http://$doregex[ip]$doregex[m3u8]</link>
 <regex>
