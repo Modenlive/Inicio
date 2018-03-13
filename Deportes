@@ -49,6 +49,22 @@ referer>http://verplusonline.com/ver-canal-directv-sports-online-gratis-vivo-int
 </item>
 
 <item>      
+<title>[COLOR blue]#  [/COLOR]Fox Sports 1 (Sur)</title>
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/172.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+link>
+<thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>      
+<title>[COLOR blue]#  [/COLOR]Fox Sports 2 (Sur)</title>
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/168.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+link>
+<thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>      
 <title>[COLOR blue]#  [/COLOR]Fox Sport 1 Premium</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.52 Safari/537.36 OPR/52.0.2871.0 (Edition developer)</link>
 <regex>
