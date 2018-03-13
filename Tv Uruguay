@@ -14,6 +14,26 @@
 </item>
 
 <item>
+<title>[COLOR blue]#  [/COLOR][COLOR]TNU[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6042</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-XdCg6xh03qY/WdzJUQ8fmFI/AAAAAAAAB6M/vPwk7m5pQ8s1RI42KzgprpSvEDIcNbuAwCK4BGAYYCw/s1600/television%2Bnacional.jpg</thumbnail>
+<fanart>https://t2.kn3.net/taringa/3/4/8/6/5/1/SpammerMan/9D4.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Canal 7[/COLOR]</title>
 <link>$doregex[get-url]</link>
 <regex>
@@ -51,7 +71,7 @@
 <fanart>https://pbs.twimg.com/media/CIyDP9TW8AAS1TE.jpg</fanart>
 </item>
 
------------------------------
+----------------------------
 
 <item>
 <title>[COLOR blue]#  [/COLOR]VTV (op 1)</title>
@@ -75,6 +95,27 @@
 </item>
 
 ----------------------
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Tv Ciudad[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/6046</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz0ngPTCvdESfELJlB_jdlwkFGACK4BGAYYCw/s1600/tv%2Bciudad%2Bdiversidad.jpg</thumbnail>
+<thumbnail>http://1.bp.blogspot.com/-G1olsDY4lgU/WdzJUfp5X8I/AAAAAAAAB8s/Iccig8umGYk90nnT2XKyMcctImiH4xoEACK4BGAYYCw/s1600/tv%2Bciudad.jpg</thumbnail>
+<fanart>http://www.carve850.com.uy/wp-content/uploads/2016/08/tv-ciudad.jpg</fanart>
+</item>
 
 <item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Vera HD[/COLOR]</title>
@@ -157,6 +198,26 @@
 </item>
 
 <item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal M[/COLOR]</title>
+<link>$doregex[get-url]</link>
+<regex>
+<name>get-url</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-ifr]</page>
+<referer>http://tv.vera.com.uy</referer>
+</regex>
+<regex>
+<name>get-ifr</name>
+<expres>'src', '(.*extras.*?)'</expres>
+<page>http://tv.vera.com.uy/canal/21259</page>
+<referer>http://tv.vera.com.uy</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-e1_EmfkE7eg/WdzaEGX9oPI/AAAAAAAAB-0/-DaIlm0XSOcx579mbWy165YX0NZOYHGEQCK4BGAYYCw/s1600/RTET.jpg</thumbnail>
+<fanart>http://www.canalm.tv/plantillas/imagenes/logo-canalm.png</fanart>
+</item>
+
+<item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Canal 12 Melo[/COLOR]</title>
 <link>$doregex[get-url]</link>
 <regex>
@@ -177,47 +238,6 @@
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]TNU[/COLOR]</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)"</expres>
-<page>$doregex[get-ifr]</page>
-<referer>http://tv.vera.com.uy</referer>
-</regex>
-<regex>
-<name>get-ifr</name>
-<expres>'src', '(.*extras.*?)'</expres>
-<page>http://tv.vera.com.uy/canal/6042</page>
-<referer>http://tv.vera.com.uy</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://3.bp.blogspot.com/-XdCg6xh03qY/WdzJUQ8fmFI/AAAAAAAAB6M/vPwk7m5pQ8s1RI42KzgprpSvEDIcNbuAwCK4BGAYYCw/s1600/television%2Bnacional.jpg</thumbnail>
-<fanart>https://t2.kn3.net/taringa/3/4/8/6/5/1/SpammerMan/9D4.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Tv Ciudad[/COLOR]</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)"</expres>
-<page>$doregex[get-ifr]</page>
-<referer>http://tv.vera.com.uy</referer>
-</regex>
-<regex>
-<name>get-ifr</name>
-<expres>'src', '(.*extras.*?)'</expres>
-<page>http://tv.vera.com.uy/canal/6046</page>
-<referer>http://tv.vera.com.uy</referer>
-<cookieJar></cookieJar>
-</regex>
-thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz0ngPTCvdESfELJlB_jdlwkFGACK4BGAYYCw/s1600/tv%2Bciudad%2Bdiversidad.jpg</thumbnail>
-<thumbnail>http://1.bp.blogspot.com/-G1olsDY4lgU/WdzJUfp5X8I/AAAAAAAAB8s/Iccig8umGYk90nnT2XKyMcctImiH4xoEACK4BGAYYCw/s1600/tv%2Bciudad.jpg</thumbnail>
-<fanart>http://www.carve850.com.uy/wp-content/uploads/2016/08/tv-ciudad.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Canal U[/COLOR]</title>
 <link>$doregex[get-url]</link>
 <regex>
@@ -235,26 +255,6 @@ thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz
 </regex>
 <thumbnail>http://1.bp.blogspot.com/-Ei-uHTPf0ig/WdzJUZxp_LI/AAAAAAAAB84/F7N1nIs6fL8uCbKkYVEpjSuCSXsn9iuZgCK4BGAYYCw/s1600/canal%2Bu.jpg</thumbnail>
 <fanart>http://www.frutifull.com/imgs/uploaded/company/canal_u.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Canal M[/COLOR]</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file: "(.*?)"</expres>
-<page>$doregex[get-ifr]</page>
-<referer>http://tv.vera.com.uy</referer>
-</regex>
-<regex>
-<name>get-ifr</name>
-<expres>'src', '(.*extras.*?)'</expres>
-<page>http://tv.vera.com.uy/canal/21259</page>
-<referer>http://tv.vera.com.uy</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://4.bp.blogspot.com/-e1_EmfkE7eg/WdzaEGX9oPI/AAAAAAAAB-0/-DaIlm0XSOcx579mbWy165YX0NZOYHGEQCK4BGAYYCw/s1600/RTET.jpg</thumbnail>
-<fanart>http://www.canalm.tv/plantillas/imagenes/logo-canalm.png</fanart>
 </item>
 
 <item>
