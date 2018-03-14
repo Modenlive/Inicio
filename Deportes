@@ -64,6 +64,7 @@ link>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
 
+--------------
 <item>      
 <title>[COLOR blue]#  [/COLOR]Fox Sport 1 Premium</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.52 Safari/537.36 OPR/52.0.2871.0 (Edition developer)</link>
@@ -85,6 +86,20 @@ link>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
 
+item>      
+<title>[COLOR blue]#  [/COLOR]Fox Sports Premium (Argentina)</title>
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/58.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+<thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>      
+<title>[COLOR blue]#  [/COLOR]Fox Sports Premium (Argentina)</title>
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/176.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+<thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+------------
 
 <item>      
 <title>[COLOR blue]#  [/COLOR]Fox Sport 1 MX</title>
@@ -116,6 +131,7 @@ referer>http://verplusonline.com/ver-fox-sport-2-online/</referer>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
 
+--------------
 <item>
 <title>[COLOR blue]#  [/COLOR]TNT SPORTS</title> 
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -129,6 +145,21 @@ link>plugin://plugin.video.f4mTester/?url=http://p4.giffy.be:8080/live/test12345
 <thumbnail>https://s26.postimg.org/9ree97fmx/tntsport.jpg</thumbnail>
 <fanart></fanart>
 </item>
+
+item>
+<title>[COLOR blue]#  [/COLOR]TNT SPORTS (Argentina)</title> 
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/53.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+<thumbnail>https://s26.postimg.org/9ree97fmx/tntsport.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]TNT SPORTS (Argentina)</title> 
+<link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/183.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
+<thumbnail>https://s26.postimg.org/9ree97fmx/tntsport.jpg</thumbnail>
+<fanart></fanart>
+</item>
+-----------------------
 
 <item>      
 <title>[COLOR blue]#  [/COLOR]GolTv Latino</title>
