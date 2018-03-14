@@ -238,6 +238,27 @@ referer>http://verplusonline.com/ver-canal-directv-sports-online-gratis-vivo-int
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
 
+<item>      
+<title>[COLOR blue]#  [/COLOR]Antena 3</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.52 Safari/537.36 OPR/52.0.2871.0 (Edition developer))</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedna.php?file=antena3&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s5.postimg.org/8xq0juwhz/Antena_3.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>      
+<title>[COLOR blue]#  [/COLOR]Antena 3  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedna.php?file=antena3&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/antena-3/</referer>
+<thumbnail>https://s5.postimg.org/8xq0juwhz/Antena_3.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
 <item>
 <title>[COLOR blue]#  [COLOR]Claro Sport HD[/COLOR]</title>
 <link>http://jjoo2016ch01-hlsfix.clarovideo.com/Content/hls/Live/Channel(jjoo2016ch01)/Stream(05)/index.m3u8</link>
