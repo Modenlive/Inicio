@@ -381,7 +381,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 
 <item>
-<title>[COLOR blue]#  [COLOR ]Movistar MotoGP</title>
+<title>[COLOR blue]#  [/COLOR ]Movistar MotoGP</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -423,7 +423,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]TDT Deportes[/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]TDT Deportes</title>
 <link>http://190.92.0.43:1935/securelive/tdtv85jd5EKL3xWq3/chunklist_w1241310319.m3u8|User-Agent=ArtearPlayer/3.2.42 (Linux;Android 4.4.2) ExoPlayerLib/1.5.9</link>
 <thumbnail>https://s26.postimg.org/j28c11ggp/tdtdepo.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
