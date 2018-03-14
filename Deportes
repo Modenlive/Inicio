@@ -402,7 +402,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR ]Movistar MotoGP</title>
+<title>[COLOR blue]#  [/COLOR]Movistar MotoGP</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
