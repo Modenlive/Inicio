@@ -51,7 +51,6 @@ referer>http://verplusonline.com/ver-canal-directv-sports-online-gratis-vivo-int
 <item>      
 <title>[COLOR blue]#  [/COLOR]Fox Sports 1 (Sur)</title>
 <link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/172.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
-link>
 <thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
@@ -59,7 +58,6 @@ link>
 <item>      
 <title>[COLOR blue]#  [/COLOR]Fox Sports 2 (Sur)</title>
 <link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/168.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
-link>
 <thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
@@ -86,8 +84,8 @@ link>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
 
-item>      
-<title>[COLOR blue]#  [/COLOR]Fox Sports Premium (Argentina)</title>
+<item>      
+<title>[COLOR blue]#  [/COLOR]Fox Sports Premium SD (Argentina)</title>
 <link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/58.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
 <thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
@@ -110,8 +108,14 @@ item>
 <page>http://livesports.pw/embedna.php?file=foxsportmx&width=650&height=397</page>
 <cookieJar></cookieJar>
 </regex>
-sportsdevil>http://livesports.pw/embedna.php?file=foxsportmx&width=650&height=397</sportsdevil>
-referer>http://verplusonline.com/ver-fox-sport-online/</referer>
+<thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>      
+<title>[COLOR blue]#  [/COLOR]Fox Sport 1 MX  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedna.php?file=foxsportmx&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/ver-fox-sport-online/</referer>
 <thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
@@ -125,8 +129,14 @@ referer>http://verplusonline.com/ver-fox-sport-online/</referer>
 <page>http://livesports.pw/embedna.php?file=foxsportdosmx&width=650&height=397</page>
 <cookieJar></cookieJar>
 </regex>
-sportsdevil>http://livesports.pw/embedna.php?file=foxsportdosmx&width=650&height=397</sportsdevil>
-referer>http://verplusonline.com/ver-fox-sport-2-online/</referer>
+<thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>      
+<title>[COLOR blue]#  [/COLOR]Fox Sport 2 MX  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedna.php?file=foxsportdosmx&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/ver-fox-sport-2-online/</referer>
 <thumbnail>https://s26.postimg.org/g53hcen2x/Foxsport.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
@@ -141,13 +151,20 @@ referer>http://verplusonline.com/ver-fox-sport-2-online/</referer>
 <page>http://livesports.pw/embedna.php?file=tntsport&width=650&height=397</page>
 <cookieJar></cookieJar>
 </regex>
-link>plugin://plugin.video.f4mTester/?url=http://p4.giffy.be:8080/live/test12345/test12345/35455.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR white]Total[COLOR deepskyblue]d[COLOR lime]e[COLOR orange]k[COLOR red]a[/COLOR]</link> 
 <thumbnail>https://s26.postimg.org/9ree97fmx/tntsport.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
-item>
-<title>[COLOR blue]#  [/COLOR]TNT SPORTS (Argentina)</title> 
+<item>
+<title>[COLOR blue]#  [/COLOR]TNT SPORTS  [COLOR lime]SportDevil [/COLOR]</title> 
+<sportsdevil>http://livesports.pw/embedna.php?file=tntsport&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/tnt-sport-de-argentina/</referer>
+<thumbnail>https://s26.postimg.org/9ree97fmx/tntsport.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]TNT SPORTS SD (Argentina)</title> 
 <link>plugin://plugin.video.f4mTester/?url=http://megatv.live:80/live/MegaTest/MegaTV/53.ts&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=ELECDEKA</link>
 <thumbnail>https://s26.postimg.org/9ree97fmx/tntsport.jpg</thumbnail>
 <fanart></fanart>
@@ -170,6 +187,14 @@ item>
 <page>http://livesports.pw/embedna.php?file=goltvlatinosss&width=650&height=400</page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>https://s26.postimg.org/glkk4q2gp/goltvv.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>      
+<title>[COLOR blue]#  [/COLOR]GolTv Latino  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedna.php?file=goltvlatinosss&width=650&height=400</sportsdevil>
+<referer>http://verplusonline.com/ver-goal-tv-latino-en-directo-gratis-y-en-vivo/</referer>
 <thumbnail>https://s26.postimg.org/glkk4q2gp/goltvv.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
@@ -221,7 +246,7 @@ item>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]DeporTv[/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]DeporTv</title>
 <link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0044</link>
 <thumbnail>https://s26.postimg.org/5v12d3kbt/deportv.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
@@ -241,6 +266,19 @@ item>
 </item>
 
 <item>
+<title>[COLOR blue]#  [/COLOR]beIN Sport ES</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinsport&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/b6fyxsqyx/beinsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR blue]#  [/COLOR]beIN Sport ES  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=beinsport&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/ver-bein-sport-n/</referer>
@@ -249,7 +287,7 @@ item>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR]beIN Sport Ñ</title>
+<title>[COLOR blue]#  [/COLOR]beIN Sport N</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -262,7 +300,15 @@ referer>http://verplusonline.com/ver-bein-sport-espana-en-directo-gratis-y-en-vi
 <thumbnail>https://s26.postimg.org/b6fyxsqyx/beinsport.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
-	
+
+<item>
+<title>[COLOR blue]#  [/COLOR]beIN Sport N  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=beinsportn&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/ver-bein-sport-espana-en-directo-gratis-y-en-vivo-por-internet-opcion-2/</referer>
+<thumbnail>https://s26.postimg.org/b6fyxsqyx/beinsport.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
 <item>
 <title>[COLOR blue]#  [/COLOR]La Liga Tv</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
@@ -277,7 +323,15 @@ referer>http://verplusonline.com/laligatv/</referer>
 <thumbnail>https://s9.postimg.org/4mfra3wlb/w_Fj_WYNH.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
-	
+
+<item>
+<title>[COLOR blue]#  [/COLOR]La Liga Tv  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/laligatv/</referer>
+<thumbnail>https://s9.postimg.org/4mfra3wlb/w_Fj_WYNH.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
 <item>
 <title>[COLOR blue]#  [/COLOR]Partidazo  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
@@ -295,7 +349,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 
 <item>
-<title>[COLOR blue]#  [COLOR ]Eurosport 1  [COLOR lime]SportDevil [/COLOR][/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]Eurosport 1  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=eurosportsesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/deporte/eurosport</referer>
 <thumbnail>https://s26.postimg.org/swviz4i95/gtaaj.jpg</thumbnail>
@@ -303,7 +357,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 	
 <item>
-<title>[COLOR blue]#  [COLOR ]Eurosport 2  [COLOR lime]SportDevil [/COLOR][/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]Eurosport 2  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=eurosportsdosesp&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/deporte/eurosport2</referer>
 <thumbnail>https://s26.postimg.org/imt3zxi3t/gtaaj233e.jpg</thumbnail>
@@ -311,7 +365,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 	
 <item>
-<title>[COLOR blue]#  [COLOR ]Movistar Deportes 1  [COLOR lime]SportDevil [/COLOR][/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]Movistar Deportes 1  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://vergol.com/live1/plusdeportes1.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-plus-deportes-online-y-en-directo-las-24-en-vivo/</referer>
 <thumbnail>https://s26.postimg.org/qf5wbqkp5/depo1.jpg</thumbnail>
@@ -319,7 +373,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 	
 <item>
-<title>[COLOR blue]#  [COLOR ]Movistar Deportes 2  [COLOR lime]SportDevil [/COLOR][/COLOR]</title>
+<title>[COLOR blue]#  [/COLOR]Movistar Deportes 2  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://vergol.com/live1/plusdeportes2.php</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-canal-plus-deportes-2-online-y-en-directo-las-24h-en-vivo/</referer>
 <thumbnail>https://s26.postimg.org/5v12d4f6x/depo2.jpg</thumbnail>
@@ -327,17 +381,43 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 
 <item>
-<title>[COLOR blue]#  [COLOR ]Movistar MotoGP  [COLOR lime]SportDevil [/COLOR][/COLOR]</title>
-<sportsdevil>http://vergol.com/live3/motogp.php</sportsdevil>
+<title>[COLOR blue]#  [COLOR ]Movistar MotoGP</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embeddeporte.php?file=funoesp&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/rze9fri0p/motoracho.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [COLOR ]Movistar MotoGP  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embeddeporte.php?file=funoesp&width=650&height=397</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/</referer>
 <thumbnail>https://s26.postimg.org/rze9fri0p/motoracho.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
-	
-<item> off
-<title>[COLOR blue]#  [COLOR ]Movistar F1  [COLOR lime]SportDevil [/COLOR][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/deportes/formula-1.html</sportsdevil>
-<referer>http://www.vercanalestv.com/tv/deportes/formula-1.html</referer>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]Movistar F1</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embeddeporte.php?file=funoesp&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://s26.postimg.org/60ip2zd15/gfgdg.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]Movistar F1  [COLOR lime]SportDevil[/COLOR]</title>
+<sportsdevil>http://livesports.pw/embeddeporte.php?file=funoesp&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/ver-movistar-f1-online/</referer>
 <thumbnail>https://s26.postimg.org/60ip2zd15/gfgdg.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
@@ -359,6 +439,15 @@ referer>http://verplusonline.com/laligatv/</referer>
 <page>http://livesports.pw/embedna.php?file=ufv&width=650&height=397</page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>https://s26.postimg.org/hkixhdjux/juu7.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+<info></info>
+</item>
+
+<item>      
+<title>[COLOR blue]#  [/COLOR]Box nation  [COLOR lime]SportDevil[/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedna.php?file=ufv&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/ver-canal-ufc-network-vivo/</referer>
 <thumbnail>https://s26.postimg.org/hkixhdjux/juu7.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 <info></info>
