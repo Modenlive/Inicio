@@ -386,7 +386,7 @@ referer>http://verplusonline.com/laligatv/</referer>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embeddeporte.php?file=funoesp&width=650&height=397</page>
+<page>http://livesports.pw/embeddeporte.php?file=motogpm&width=650&height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://s26.postimg.org/rze9fri0p/motoracho.jpg</thumbnail>
@@ -394,9 +394,9 @@ referer>http://verplusonline.com/laligatv/</referer>
 </item>
 
 <item>
-<title>[COLOR blue]#  [COLOR ]Movistar MotoGP  [COLOR lime]SportDevil [/COLOR]</title>
-<sportsdevil>http://livesports.pw/embeddeporte.php?file=funoesp&width=650&height=397</sportsdevil>
-<referer>http://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/</referer>
+<title>[COLOR blue]#  [/COLOR]Movistar MotoGP  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://livesports.pw/embeddeporte.php?file=motogpm&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/movistar-motogp-online-vivo-gratis/</referer>
 <thumbnail>https://s26.postimg.org/rze9fri0p/motoracho.jpg</thumbnail>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
