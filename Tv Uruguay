@@ -86,7 +86,7 @@ link>plugin://plugin.video.f4mTester/?url=http://p4.giffy.be:8080/live/test12345
 ----------------------------
 
 item>
-<title>[COLOR blue]#  [/COLOR]VTV (op 1)</title>
+<title>[COLOR blue]#  [/COLOR]VTV </title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -99,7 +99,7 @@ item>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR]VTV (op 2)</title>
+<title>[COLOR blue]#  [/COLOR]VTV</title>
 <link>http://megatv.live:80/live/MegaTest/MegaTV/414.ts</link>
 sportsdevil>http://livesports.pw/embedna.php?file=vtvu&width=650&height=397</sportsdevil>
 referer>http://verplusonline.com/vtv-de-uruguay-online/</referer>
