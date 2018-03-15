@@ -8,17 +8,17 @@
 
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Canal 2 Telpin HD[/COLOR]</title> 
-<link>rtmp://201.219.100.30:1935/telpintv/ttv.stream_360p</link> 
-<thumbnail>http://3.bp.blogspot.com/-FZMSdGXGR3M/WdbXY4U7uUI/AAAAAAAABo4/g1hiuwKDHqEWZCmfnoAg1-EpSBw_Bp1qACK4BGAYYCw/s1600/telepin.jpg</thumbnail>
-<fanart>http://www.telpin.com.ar/telpin/imgs/BANNER-WEB-paute-canal-2-01.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR blue]#  [/COLOR]America 2</title> 
 <link>http://megatv.live:80/live/MegaTest/MegaTV/47.ts</link>
 <thumbnail>http://3.bp.blogspot.com/-EeJhD8HkwXs/WdaNiK-2vxI/AAAAAAAABkA/NnF-8sEYwmoTjdNWVvpA-4tf47dfN1UDwCK4BGAYYCw/s1600/america%2B2.jpg</thumbnail>
 <fanart>http://3.bp.blogspot.com/-tyOCh3clC_4/WdaNfmTsNgI/AAAAAAAABio/ab47wgWIB00k5megHgOv9r37sPKG9GWegCK4BGAYYCw/s1600/america%2B2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]Canal 2 Telpin HD[/COLOR]</title> 
+<link>rtmp://201.219.100.30:1935/telpintv/ttv.stream_360p</link> 
+<thumbnail>http://3.bp.blogspot.com/-FZMSdGXGR3M/WdbXY4U7uUI/AAAAAAAABo4/g1hiuwKDHqEWZCmfnoAg1-EpSBw_Bp1qACK4BGAYYCw/s1600/telepin.jpg</thumbnail>
+<fanart>http://www.telpin.com.ar/telpin/imgs/BANNER-WEB-paute-canal-2-01.jpg</fanart>
 </item>
 
 <item>
@@ -86,6 +86,20 @@
 </item>
 
 <item>
+<title>[COLOR blue]#  [/COLOR]A24</title>
+<link>http://megatv.live:80/live/MegaTest/MegaTV/36.ts</link>
+<thumbnail>http://1.bp.blogspot.com/-OQXV8MkhyEA/WdaNiL4syoI/AAAAAAAABj4/_HKoBs_ePdUaqD5ZKw1kjPpCkzVbkj8BwCK4BGAYYCw/s1600/a24.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-iX6FPCYr9Og/WdaNiCsxzbI/AAAAAAAABkI/RxxdywAkcaEbXfyJM6zrPt-yJvZqHP4tACK4BGAYYCw/s1600/a24.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR][COLOR]24/7[/COLOR]</title>
+<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0162</link>
+<thumbnail>https://s26.postimg.org/gds8j85d5/ar_24-7-canal-de-noticias_m.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/Ky1XF5jN7w4/maxresdefault.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR blue]#  [/COLOR]Canal 26</title>
 <link>http://live-edge01.telecentro.net.ar:1935/live/26hd-360/livestream.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-ivOg2-zfAOk/WdaNifM-XaI/AAAAAAAABkY/3lI2oa12M7sF_UfjKwTvsPtDSl545jCEwCK4BGAYYCw/s1600/canal%2B26.jpg</thumbnail>
@@ -133,13 +147,6 @@ link>http://live-edge01.telecentro.net.ar/live/26hd-720/playlist.m3u8</link>
 <link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0165</link>
 <thumbnail>http://1.bp.blogspot.com/-gfbe7RQRsWA/Wdut85_czcI/AAAAAAAABwg/nJq4e66ADZUUUgDAL2GNpA9SGJ1IrC1XgCK4BGAYYCw/s1600/hgfdsjgfsd.jpg</thumbnail>
 <fanart>https://s5.postimg.org/vf1o29lfr/28429-e09abe4b-4122-4b46-82bb-e2d52bf1f338.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR blue]#  [/COLOR][COLOR]24/7[/COLOR]</title>
-<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0162</link>
-<thumbnail>https://s26.postimg.org/gds8j85d5/ar_24-7-canal-de-noticias_m.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/Ky1XF5jN7w4/maxresdefault.jpg</fanart>
 </item>
 
 <item>
