@@ -30,6 +30,14 @@ referer>http://verplusonline.com/ver-canal-directv-sports-online-gratis-vivo-int
 </item>
 
 --------------
+<item>
+<title>[COLOR blue]#  [/COLOR]FutAndres  [COLOR lime]SportDevil [/COLOR]</title>
+<sportsdevil>http://www.vtvandrestream.ml/2018/01/vtv-2.html</sportsdevil>
+<referer>http://cndf68.blogspot.com.uy/p/1_17.html</referer>
+<thumbnail>https://s10.postimg.org/v4dusvo6x/fsfsfsf.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-Dvf63V1nLQ8/UUD0xCoXi1I/AAAAAAAAABw/F5X0PtkbuSc/s1600/id176.jpg</fanart>
+</item>
+
 <item>      
 <title>[COLOR blue]#  [/COLOR]Fox Sport 1 Premium</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.52 Safari/537.36 OPR/52.0.2871.0 (Edition developer)</link>
