@@ -386,7 +386,7 @@ thumbnail>[makelist2.param3]</thumbnail>
 ****************
 
 ************
-<item>
+item>
 <title>[COLOR red]# #   [COLOR red]Series de Terror   [COLOR red][COLOR red]# #[/COLOR]</title>  
 <link>http://about.uy/elecdeka</link>
 <thumbnail>http://4.bp.blogspot.com/-SkMRkGjNCUU/WSBBfQnknHI/AAAAAAAAA9Y/XJie0rgQ_OYOBss4Ed_MughG0xGfTbp-wCK4B/s1600/series%2Ba.jpg</thumbnail>
@@ -395,7 +395,7 @@ thumbnail>[makelist2.param3]</thumbnail>
 ************
 
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR]SERIE TERROR EN ESTADO PURO (CASTELLANO)</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -435,7 +435,7 @@ thumbnail>[makelist2.param3]</thumbnail>
 
 ************
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR]SERIES MAESTROS DEL TERROR (CASTELLANO)</title>
 <link>$doregex[makelist]</link>
 <regex>
