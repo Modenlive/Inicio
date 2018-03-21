@@ -28,7 +28,7 @@
 <fanart>https://i.ytimg.com/vi/4eUZE0cXH4k/maxresdefault.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]5R Tv[/COLOR]</title>
 <link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=LVAR0186</link>
 <thumbnail>https://s26.postimg.org/5e717m789/logo-5R-silver_x2.jpg</thumbnail>
@@ -41,6 +41,22 @@
 <info></info>
 <thumbnail>http://2.bp.blogspot.com/-irFAxqQj1OQ/WdaNippDSlI/AAAAAAAABko/7YC8LScnTvYvGoJmXtCziwOTrhXogg94wCK4BGAYYCw/s1600/el%2B9.jpg</thumbnail>
 <fanart>http://3.bp.blogspot.com/-IZq2v3kMOzA/WdaNhgRQLcI/AAAAAAAABjg/1QkQXke6voMCFOfgbGAG7v-xttNiNuP0gCK4BGAYYCw/s1600/canal%2B9.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]Canal 10</title> 
+<link>http://dcunilive30-lh.akamaihd.net:80/i/dclive_1@535534/master.m3u8|User-Agent=Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q)</link>
+<info></info>
+<thumbnail>https://s26.postimg.org/ir6s2kk6x/addada.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/z6hZw5QyFOc/hqdefault.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]Diez MDP</title> 
+<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0087</link>
+<info></info>
+<thumbnail>https://s26.postimg.org/6ck029849/fsfs.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/nJqutSELZ_M/maxresdefault.jpg</fanart>
 </item>
 
 <item>
