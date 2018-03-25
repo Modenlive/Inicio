@@ -302,6 +302,23 @@ referer>http://verplusonline.com/laligatv/</referer>
 <fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
 </item>
 
+
+
+<item>
+<title>[COLOR blue]#  [/COLOR]Partidazo</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embeddeporte.php?file=partidazo&width=650&height=397</page>
+<cookieJar></cookieJar>
+</regex>
+sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
+referer>http://verplusonline.com/laligatv/</referer>
+<thumbnail>https://s26.postimg.org/jrr4de9ah/partazo.jpg</thumbnail>
+<fanart>https://s10.postimg.org/g8fblaki1/sports_collage_by_ricardorea24-d4blmsh.jpg</fanart>
+</item>
+
 <item>
 <title>[COLOR blue]#  [/COLOR]Partidazo  [COLOR lime]SportDevil [/COLOR]</title>
 <sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
