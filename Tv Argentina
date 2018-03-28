@@ -6,14 +6,6 @@
 <info></info>
 </item>
 
-
-<item>
-<title>[COLOR blue]#  [/COLOR]America 2</title> 
-<link>https://dai.google.com/linear/hls/p/event/OY2i_lL4SMyXE5Zaj4ULEg/stream/5ace88f3-bcdd-40e8-8cf2-0159f0d102a8:CHS/variant/085a2414a253631c90e7ac89ccc9f934/bandwidth/1031000.m3u8|Referer=http://vmf.edge-apps.net&User-Agent=Mozilla/5.0</link>
-<thumbnail>http://3.bp.blogspot.com/-EeJhD8HkwXs/WdaNiK-2vxI/AAAAAAAABkA/NnF-8sEYwmoTjdNWVvpA-4tf47dfN1UDwCK4BGAYYCw/s1600/america%2B2.jpg</thumbnail>
-<fanart>http://3.bp.blogspot.com/-tyOCh3clC_4/WdaNfmTsNgI/AAAAAAAABio/ab47wgWIB00k5megHgOv9r37sPKG9GWegCK4BGAYYCw/s1600/america%2B2.jpg</fanart>
-</item>
-
 <item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Canal 2 Telpin HD[/COLOR]</title> 
 <link>rtmp://201.219.100.30:1935/telpintv/ttv.stream_360p</link> 
@@ -26,13 +18,6 @@
 <link>http://streaming.wirenetserver.com.ar:1935/canal4/live_1/playlist.m3u8</link> 
 <thumbnail>http://3.bp.blogspot.com/-bGsPTt7Ebuw/WdbKC4sLQGI/AAAAAAAABm8/ffn5y1k6x-8Fj5vNGYbSarV00c-Fm8HqwCK4BGAYYCw/s1600/canal%2B4%2Bjujuy.jpg</thumbnail>
 <fanart>https://i.ytimg.com/vi/4eUZE0cXH4k/maxresdefault.jpg</fanart>
-</item>
-
-item>
-<title>[COLOR blue]#  [/COLOR][COLOR]5R Tv[/COLOR]</title>
-<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=LVAR0186</link>
-<thumbnail>https://s26.postimg.org/5e717m789/logo-5R-silver_x2.jpg</thumbnail>
-<fanart>http://www.rts.com.ar/wp-content/uploads/sites/3/2015/11/logo-5rtv-noche.jpg</fanart>
 </item>
 
 <item>
@@ -52,16 +37,8 @@ item>
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR]Diez MDP</title> 
-<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0087</link>
-<info></info>
-<thumbnail>https://s26.postimg.org/6ck029849/fsfs.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/nJqutSELZ_M/maxresdefault.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR blue]#  [/COLOR]El doce</title> 
-<link>http://prepublish.f.qaotic.net/a09/ngrp:el12_live01-100083_all/el12_live01-100083_720p.m3u8|Referer=http://vmf.edge-apps.net&User-Agent=Mozilla/5.0</link>
+<link>http://prepublish.f.qaotic.net/b09/ngrp:el12_live01-100083_all/chunklist_b946000.m3u8|Referer=http://vmf.edge-apps.net&User-Agent=Mozilla/5.0</link> 
 <thumbnail>http://2.bp.blogspot.com/-0LxBfZSZULM/WeYpdDAt6eI/AAAAAAAACFs/rUtC3JS0CmsDlQXfIyA2ij9x84nDwcysQCK4BGAYYCw/s1600/el%2Bdoce.jpg</thumbnail>
 <fanart>http://artear.com.ar/assets/uploads/canales/940x529/56cac-eldoce.jpg</fanart>
 </item>
