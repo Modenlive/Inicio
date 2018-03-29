@@ -51,13 +51,6 @@
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]RIONEGRINA TV Rio Negro[/COLOR]</title>
-<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0166</link>
-<thumbnail>http://1.bp.blogspot.com/-gfbe7RQRsWA/Wdut85_czcI/AAAAAAAABwg/nJq4e66ADZUUUgDAL2GNpA9SGJ1IrC1XgCK4BGAYYCw/s1600/hgfdsjgfsd.jpg</thumbnail>
-<fanart>https://s5.postimg.org/vf1o29lfr/28429-e09abe4b-4122-4b46-82bb-e2d52bf1f338.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR blue]#  [/COLOR]Ciudad Magazine HD</title>
 <link>https://prepublish.f.qaotic.net/a05/ngrp:magazine_live01-100083_all/magazine_live01-100083_720p.m3u8|Referer=http://vmf.edge-apps.net&User-Agent=Mozilla/5.0</link>
 <thumbnail>http://1.bp.blogspot.com/-cZcn_5Fz-Nw/WdaNiTlbleI/AAAAAAAABkg/XvBWTxapTOQQO943BlgRTenMuTpGMOT3QCK4BGAYYCw/s1600/Ciudad%2BMagazing.jpg</thumbnail>
@@ -105,6 +98,13 @@ link>http://live-edge01.telecentro.net.ar/live/26hd-720/playlist.m3u8</link>
 <link>http://klive-a.akamaihd.net/dc-1/live/hls/p/1897151/e/1_2yqsgxqj/sd/6000/t/NuYL4ms8KUQM69Sc1u_KLg/index-s32.m3u8</link> 
 <thumbnail>http://3.bp.blogspot.com/-O6oRLJKCFxg/WeYXmZd5ydI/AAAAAAAACFY/pNlClo8Vy1MinZqDFXsd2MDVu4D_szxGwCK4BGAYYCw/s1600/orbe%2B21.jpg</thumbnail>
 <fanart>https://lh4.ggpht.com/8DGu1VY5vsAbUaQb62n_vCwD3IuaQXBXmQJDN1xwavtKDbPdUkP0RORRezxaAFX-FLY=h900</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]#  [/COLOR]Tv Rionegrina Rio Negro</title>
+<link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0166</link>
+<thumbnail>http://1.bp.blogspot.com/-gfbe7RQRsWA/Wdut85_czcI/AAAAAAAABwg/nJq4e66ADZUUUgDAL2GNpA9SGJ1IrC1XgCK4BGAYYCw/s1600/hgfdsjgfsd.jpg</thumbnail>
+<fanart>https://s5.postimg.org/vf1o29lfr/28429-e09abe4b-4122-4b46-82bb-e2d52bf1f338.jpg</fanart>
 </item>
 
 <item>
