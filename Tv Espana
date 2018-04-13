@@ -161,7 +161,7 @@ referer>http://latelete.tv/</referer>
 
 ------------------
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]AyE[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -175,7 +175,7 @@ referer>http://latelete.tv/</referer>
 <fanart>http://www.audiovisual451.com/wp-content/uploads/AE.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Discovery Channel[/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.52 Safari/537.36 OPR/52.0.2871.0 (Edition developer)</link>
 <regex>
@@ -188,7 +188,7 @@ referer>http://latelete.tv/</referer>
 <fanart>https://www.adslzone.tv/app/uploads/2015/12/discovery-channel.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Crimen investigacion[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -202,7 +202,7 @@ referer>http://latelete.tv/</referer>
 <fanart>http://www.neeo.es/wp-content/uploads/crimen-investigacion.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Calle13[/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.52 Safari/537.36 OPR/52.0.2871.0 (Edition developer)</link>
 <regex>
@@ -215,7 +215,7 @@ referer>http://latelete.tv/</referer>
 <fanart>https://alejandrapons.files.wordpress.com/2012/08/calle-13-tv-channel-all-fools-day-small-38184.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Historia[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
@@ -229,7 +229,7 @@ referer>http://latelete.tv/</referer>
 <fanart>http://estaticoshumor.atresmedia.com/wp-content/uploads/2016/11/historiatestportada-940x400.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]National Geographic[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
@@ -243,7 +243,7 @@ referer>http://latelete.tv/</referer>
 <fanart>https://orig00.deviantart.net/9a37/f/2012/048/8/4/nat_geo_wallpaper_by_johnnyslowhand-d4q0zf1.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]NatGeo Wild[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
@@ -256,7 +256,7 @@ referer>http://latelete.tv/</referer>
 <fanart>http://www.thedailytelevision.com/sites/default/files/notas/imagenes/interior/natgeo-wild-grande.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Caza y pesca[COLOR lime][/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -270,7 +270,7 @@ referer>http://latelete.tv/</referer>
 <fanart>http://scontent.cdninstagram.com/t51.2885-15/e35/13166816_1705502169703569_1977793477_n.jpg?ig_cache_key=MTI1MjA0MTEwODA3NzczODY0MQ==.2</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Cocina[COLOR lime][/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.52 Safari/537.36 OPR/52.0.2871.0 (Edition developer)</link>
 <regex>
@@ -283,7 +283,7 @@ referer>http://latelete.tv/</referer>
 <fanart>http://tienda.canalcocina.es/4899-tm_home_default/canalcocina.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Comedy Central[/COLOR] [/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -312,7 +312,7 @@ item>
 <fanart>https://i0.wp.com/diariomnipresente.com/wp-content/uploads/2015/12/0-Movistar.jpg?resize=1000%2C450</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]M+ #0[/COLOR]</title>
 <link>http://$doregex[ip]$doregex[m3u8]$doregex[hls]</link>
 			<regex>
@@ -343,7 +343,7 @@ item>
 <fanart>https://i0.wp.com/diariomnipresente.com/wp-content/uploads/2015/12/0-Movistar.jpg?resize=1000%2C450</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]AMC[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -357,7 +357,7 @@ item>
 <fanart>http://images.amcnetworks.com/amc.com/wp-content/uploads/2016/09/AMC_Black_Hero_Logo-1200x707.jpg</fanart>
 </item>
 
-<item><title>[COLOR blue]#  [/COLOR][COLOR]AXN[/COLOR]</title>
+item><title>[COLOR blue]#  [/COLOR][COLOR]AXN[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -370,7 +370,7 @@ item>
 <fanart>https://i.ytimg.com/vi/6Lz9BI6PsbU/maxresdefault.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Fox[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -384,7 +384,7 @@ item>
 <fanart>https://cdn.foxplay.com/sites/foxplay-la/files/img/logo-mobile-channels/fox-generic.png?ver=e2e5a340-3c27-4ac3-9044-a01138da9091</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]TNT[/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
@@ -398,7 +398,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://pulsoslp.com.mx/wp-content/uploads/2015/03/tnt.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]SYFY[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -412,7 +412,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://www.syfy.com/sites/syfy/files/wire/legacy/syfy.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]M+ ACCION[COLOR lime][/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
@@ -426,7 +426,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://1.bp.blogspot.com/-CoW3Aw17b_c/WdwBBKAyIOI/AAAAAAAAB1I/u5HhNzqir18e6ytdQe7aw0ARXty9Vbf-ACK4BGAYYCw/s1600/accion.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]M+ COMEDY[COLOR lime][/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
@@ -440,7 +440,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://2.bp.blogspot.com/-PlU27t9fiQc/WdwBBJSHNcI/AAAAAAAABzM/KF-qmCyQxAEwagVZdbPfm-ksV8i2MBcOgCK4BGAYYCw/s1600/comediamovi.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]M+ DCine[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -454,7 +454,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://3.bp.blogspot.com/-eY1SIreT_Vw/WdwBBDIsZRI/AAAAAAAAB00/VJ_30iPaOqk4Jy816Wzm_A1hapyNqx9ZwCK4BGAYYCw/s1600/dcine.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]M+ ESTRENOS[COLOR lime][/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
@@ -468,7 +468,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://1.bp.blogspot.com/-5PJGlOkcCrs/WdwBBN7W5DI/AAAAAAAAB0o/o2PIDkJDzscX9RgCxbVujQA7fvKk2upKwCK4BGAYYCw/s1600/estrenomovi.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]M+ Series[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html&amp;User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
@@ -484,7 +484,7 @@ expres>videoUrl = '(.*?)'</expres>
 
 -----------
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR]M+ Series XTRA</title> 
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -498,7 +498,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>https://s5.postimg.org/djm4s97rb/xtr.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Dark[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -514,7 +514,7 @@ expres>videoUrl = '(.*?)'</expres>
 
 --------
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Hollywood[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -528,14 +528,14 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://www.grupocomunica.com/wp-content/uploads/2016/05/Hollywood.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Paramount[/COLOR]</title>
 <link>http://www.radiosargentina.com.ar/php/tvm3u.php?id=PAES0008</link>
 <thumbnail>http://3.bp.blogspot.com/-VbM4KuSczRY/WdwBBOHcVWI/AAAAAAAABzI/tVB_9Jm1s6s5YQOiriEaCwWuM686ZJeMQCK4BGAYYCw/s1600/paramount.jpg</thumbnail> 
 <fanart>https://upload.wikimedia.org/wikipedia/id/thumb/4/4a/Paramount_logo.jpg/1200px-Paramount_logo.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]TCM[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
@@ -549,7 +549,7 @@ expres>videoUrl = '(.*?)'</expres>
 <fanart>http://www.chicaoguerrero.com/site/wp-content/uploads/2012/07/FESTA-CANAL-TCM-CONVENÇÃO-NET-3.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR]Nickelodeon</title> 
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedna.php?file=movestr&amp;User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0</link>
 <regex>
