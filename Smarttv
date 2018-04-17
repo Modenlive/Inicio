@@ -7,21 +7,21 @@
 </item>
 
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]VE PLUS TV[/COLOR]</title>
 <link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/VMAS/tu1_1.m3u8</link>
 <thumbnail>http://3.bp.blogspot.com/-pR3hcu5hj2c/WdbKC8Q7qVI/AAAAAAAABmk/w8TSnJhVU4QsRBfcINUMMdHScb7yHTT5wCK4BGAYYCw/s1600/Ve%2Bplus.jpg</thumbnail>
 <fanart>http://veplusgo.com/VePlussplash.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]Sun channel[/COLOR]</title>
 <link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/SUN/tu1_manifest.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-ARFTFswviqQ/WdbKCq6BgBI/AAAAAAAABns/et-ym4aoiZ0c6wSgqlIX1DOQtFjYhr2MQCK4BGAYYCw/s1600/sun%2Bchannel.jpg</thumbnail>
 <fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/a096ea33876739.5605e9d69c762.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR][COLOR]NCTV Latinos[/COLOR]</title>
 <link>http://ss8.domint.net:2106/nct_str/latinos/playlist.m3u8</link>
 <thumbnail>http://4.bp.blogspot.com/-9AqRARTsf68/We4BIByH_XI/AAAAAAAACHU/PJYWvQl8F9YfMZKJkT1-pHBaFmhLojCnACK4BGAYYCw/s1600/nctv.jpg</thumbnail>
@@ -55,24 +55,8 @@ fanart>http://www.informativostv.com/informativostv/images/Telecinco/Telecinco/t
 </item>
 
 <item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Telemundo 51 Miami[/COLOR]</title>
-<link>http://wscvlive-lh.akamaihd.net/i/WSCV_LIVE2@183618/master.m3u8</link>          
-<thumbnail>https://s26.postimg.org/t7f15tpi1/trato51.jpg</thumbnail>
-<fanart>https://media.diariolasamericas.com/adjuntos/216/imagenes/000/477/0000477507.jpg</fanart>
-<info></info>
-</item>
-
-<item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Univision (Op 1)[/COLOR]</title>
-<link>https://ssh101.com/m3u8/dyn/unonuevo/index.m3u8</link>          
-<thumbnail>http://4.bp.blogspot.com/-H0QKjYKEH_w/WeAdBYJch-I/AAAAAAAACEI/Ot08WOg2JvMW4edqMb7VNovZpz7ktttkQCK4BGAYYCw/s1600/univision.jpg</thumbnail>
-<fanart>http://www.xtremostereo.net/wp-content/uploads/2016/09/Univisión-en-vivo-online.jpg</fanart>
-<info></info>
-</item>
-
-<item>
-<title>[COLOR blue]#  [/COLOR][COLOR]Univision (Op 2)[/COLOR]</title>
-<link>http://nlds134.cdnak.dal.neulion.com/nlds/univisionnow/univision_east/as/live/univision_east_hd_androidtab.m3u8?hdnea=expires=1496782118~access=/nlds/univisionnow/univision_east/as/live/*~md5=a4f512d96d77b9a4f5e4d8f31bbf5361</link>          
+<title>[COLOR blue]#  [/COLOR][COLOR]Univision[/COLOR]</title>
+<link>http://nlunioo.akamaized.net/nlds/univision/as/live/unioo_hd_1200_ipad.m3u8</link>          
 <thumbnail>http://4.bp.blogspot.com/-H0QKjYKEH_w/WeAdBYJch-I/AAAAAAAACEI/Ot08WOg2JvMW4edqMb7VNovZpz7ktttkQCK4BGAYYCw/s1600/univision.jpg</thumbnail>
 <fanart>http://www.xtremostereo.net/wp-content/uploads/2016/09/Univisión-en-vivo-online.jpg</fanart>
 <info></info>
