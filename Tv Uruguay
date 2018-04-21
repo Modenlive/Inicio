@@ -105,10 +105,16 @@ thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
 </item>
 
-item>
+<item>
 <title>[COLOR blue]#  [/COLOR]VTV  [COLOR lime]SportDevil[/COLOR]</title>
-<sportsdevil>http://telefivegb.com/canales/latinos/vtv/</sportsdevil> codec dentro
-<referer>http://telefivegb.com/tv-urugay/ver-vtv-urugay-online/</referer> arriba
+<link>$doregex[get-id]</link>
+<regex>
+<name>get-id</name>
+<expres>file:"(.*?)"</expres>
+<page>http://widestream.io/embed-26262</page>
+</regex>
+sportsdevil>http://telefivegb.com/canales/latinos/vtv/</sportsdevil> codec dentro
+referer>http://telefivegb.com/tv-urugay/ver-vtv-urugay-online/</referer> arriba
 <thumbnail>https://s26.postimg.cc/50bq2kb2x/VTV.jpg</thumbnail>
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
 </item>
