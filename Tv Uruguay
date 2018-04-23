@@ -105,7 +105,7 @@ thumbnail>http://2.bp.blogspot.com/-ayA3op6xmIk/Wc5fsUAs8-I/AAAAAAAABhM/Cy147bCz
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulKg0WyYEKhOnA_VDsNEUNqL2qSbNu4WXd5Nt1l6QmAnYFFhEVQ</fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR blue]#  [/COLOR]VTV  [COLOR lime]SportDevil[/COLOR]</title>
 <link>$doregex[get-id]</link>
 <regex>
